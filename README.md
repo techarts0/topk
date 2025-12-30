@@ -1,5 +1,4 @@
-# Manuscript ID: FGCS-25-05067
-### Beyond Big-O: Why Optimizing Data Structure is Futile for Exact Streaming Top-K on IID Data
+## An Empirical Study on the Ineffectiveness of Optimization for Exact Streaming Top-K: A Hardware-Software Perspective
 
 ## About
 - Description: The source code of experiment evaluation
