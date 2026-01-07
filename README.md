@@ -1,4 +1,4 @@
-## An Empirical Study on the Ineffectiveness of Optimization for Exact Streaming Top-K: A Hardware-Software Perspective
+## An Empirical Study on Optimization Ineffectiveness for Exact Streaming Top-K: A Hardware-Software Perspective
 
 ## About
 - Description: The source code of experiment evaluation
