@@ -2,6 +2,7 @@
 
 This directory contains the code, frozen inputs, experimental records, analysis outputs, and run metadata supporting *Engineering Exact Top-k Selection: System Audits and Optimization in DuckDB*. Machine-specific absolute path roots and the local host name in text artifacts are redacted as `*`; measurements and input data are unchanged.
 
+
 ## Contents
 
 - `source/bench.cpp`, `source/kernels.hpp`, and `source/integration/` contain the controlled kernels, DuckDB drivers and source variants, frozen experiment plans, analysis scripts, and build/run scripts.
@@ -52,7 +53,3 @@ Run scripts refuse to overwrite existing result directories. Use a fresh copy of
 | Earlier helper-based AVX2 regression discussed in Methods | `source/results/confirm-v1/` and `provenance/controlled_build/archive/v1/` |
 
 The four system audits are source-path inspections within the scope described in the paper; they are not four cross-system performance benchmarks.
-
-## Data and license notes
-
-Confirm redistribution terms for the input data and choose a license for the authors' code before redistribution. The old supplementary-material directory is not part of this package.
