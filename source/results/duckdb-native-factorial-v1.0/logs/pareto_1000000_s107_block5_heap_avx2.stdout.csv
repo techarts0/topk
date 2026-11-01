@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,rows,checksum,cycles,instructions,branches,branch_misses,perf_running_pct
+heap_avx2,"*/source/data/iid-replicates/pareto_1000000_s107.csv",100,0,3764533,100,9499173747708977624,7976352,9406379,2316694,20309,100
+heap_avx2,"*/source/data/iid-replicates/pareto_1000000_s107.csv",100,1,2359857,100,9499173747708977624,5248287,9420001,2319433,17142,100
+heap_avx2,"*/source/data/iid-replicates/pareto_1000000_s107.csv",100,2,3114541,100,9499173747708977624,6619863,9459032,2324570,17734,100

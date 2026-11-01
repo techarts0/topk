@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,topn_operator_ns,root_latency_ns,rows,checksum,topn_nodes
+heap_stock,"*/source/data/nyc_yellow_2024_01_distance_chrono_1000000.csv",100,0,11719578,9475803,10775010,100,17106052885660980423,1
+heap_stock,"*/source/data/nyc_yellow_2024_01_distance_chrono_1000000.csv",100,1,12604120,11018525,12487218,100,17106052885660980423,1
+heap_stock,"*/source/data/nyc_yellow_2024_01_distance_chrono_1000000.csv",100,2,12459885,9908275,12269570,100,17106052885660980423,1

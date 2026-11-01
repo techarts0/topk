@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,topn_operator_ns,root_latency_ns,rows,checksum,topn_nodes
+array_avx2,"*/source/data/iid-replicates/normal_1000000_s106.csv",100,0,3531548,1850462,3356037,100,63108760380488794,1
+array_avx2,"*/source/data/iid-replicates/normal_1000000_s106.csv",100,1,2866968,1467808,2574601,100,63108760380488794,1
+array_avx2,"*/source/data/iid-replicates/normal_1000000_s106.csv",100,2,3174586,1578295,3017464,100,63108760380488794,1

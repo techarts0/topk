@@ -1,0 +1,28 @@
+{
+  "experiment_plan": "../../integration/DUCKDB_NATIVE_FACTORIAL_PLAN_v1.0.md",
+  "experiment_plan_sha256": "49dc5aad097c354ca256273b8a6dee2acb93cc665013bc449196b121f0b2a6c4",
+  "run_manifest_sha256": "a1967b1d9ab0a17f0d00117c20ba6bd07edb8a4007126e0da132b38caa8f0bee",
+  "timing_csv_sha256": "20df6d3e09739c4a1b84958e29201e1320ce79f38e278c244d95f6dd83ea8c6d",
+  "duckdb_version_commit": "b8a06e4a22672e254cd0baa68a3dbed2eb51c56e",
+  "heap_avx2_patch": "../../integration/duckdb_heap_avx2_treatment.patch",
+  "heap_avx2_patch_sha256": "f3d859f48dbd8bbb2c6e3a6e145bdd2af6057b0ea54edbd61b2ff0bd395c2431",
+  "heap_avx2_source_sha256": "1f6615a6081870e5063366f5c7fa6344c7de9ddcdc4efb969af2288dae23509d",
+  "analysis_script": "../../integration/analyze_duckdb_native_factorial_v1_fast.py",
+  "analysis_script_sha256": "1d0f76b91e720abacbc55fde7d201f72443c83e0350de9c307af69ab431357bb",
+  "analysis_output": "analysis.json",
+  "analysis_output_sha256": "bdef09776791e70976386fdc3cb3e415923f19e240f300e6c483f8d8953daaab",
+  "bootstrap": {
+    "method": "hierarchical paired resampling: seeds, then process blocks within sampled seeds",
+    "replicates": 100000,
+    "seed": 20261028,
+    "random_generator": "NumPy PCG64",
+    "numpy_version": "2.4.1",
+    "primary_interval_coverage": 0.9966666666666667,
+    "primary_interval_count": 15
+  },
+  "counts": {
+    "timed_calls": 1860,
+    "four_way_paired_blocks": 155,
+    "variant_processes": 620
+  }
+}

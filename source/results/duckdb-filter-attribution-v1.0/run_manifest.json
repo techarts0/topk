@@ -1,0 +1,236 @@
+{
+  "plan": "*/source/integration/DUCKDB_FILTER_ATTRIBUTION_PLAN_v1.0.md",
+  "plan_sha256": "39d176fc8324f94bac0e43989b32b1a7e58cf813dccb3cb8c210ea67aa18327c",
+  "runner": "*/source/integration/filter-attribution-v1.0/run_filter_attribution.py",
+  "runner_sha256": "04da46cbfb5c329d00dca7bec881ac15d946d333b6f7ba4b8adb6a51f7ca249c",
+  "driver_sha256": "879350f2d4ed462e1cfc050267bd0866e25c978e522b4506876958da26601112",
+  "edge_test_sha256": "4d390f061252d4c6db4e8f9bb8fe7f77812f1f881010f519e20f900efd7a3e53",
+  "variants": {
+    "heap_stock": {
+      "resolved_library": "*/source/integration/artifacts/duckdb-v1.4.0-baseline/libduckdb.so.1.4",
+      "library_sha256": "3fd1c52c5dcefff2ddbc79fefa5895f665612386b9da20c8d2252ca236199f12",
+      "source_sha256": null
+    },
+    "heap_scalar_specialized": {
+      "resolved_library": "*/source/integration/artifacts/duckdb-v1.4.0-heap_scalar_specialized/libduckdb.so.1.4",
+      "library_sha256": "5a3801faba3c7e99e124fe927d1911ed68df2a41fee54c9696c404569e12c1ec",
+      "source_sha256": "6598875605363824818c6a84c6a2979cc4edef0aba372542ea63609d165d7119"
+    },
+    "heap_avx2": {
+      "resolved_library": "*/source/integration/artifacts/duckdb-v1.4.0-heap_avx2/libduckdb.so.1.4",
+      "library_sha256": "c079aa8b1d4f65fc0653410c387dd65a8968bcdb57cf185631ee8f335af61ab2",
+      "source_sha256": "1f6615a6081870e5063366f5c7fa6344c7de9ddcdc4efb969af2288dae23509d"
+    }
+  },
+  "kernel": "Linux * 6.6.87.2-microsoft-standard-WSL2 #1 SMP PREEMPT_DYNAMIC Thu Jun  5 18:30:46 UTC 2025 x86_64 x86_64 x86_64 GNU/Linux",
+  "cpu": "Architecture:                         x86_64\nCPU op-mode(s):                       32-bit, 64-bit\nAddress sizes:                        48 bits physical, 48 bits virtual\nByte Order:                           Little Endian\nCPU(s):                               16\nOn-line CPU(s) list:                  0-15\nVendor ID:                            AuthenticAMD\nModel name:                           AMD Ryzen 9 PRO 7940HS w/ Radeon 780M Graphics\nCPU family:                           25\nModel:                                116\nThread(s) per core:                   2\nCore(s) per socket:                   8\nSocket(s):                            1\nStepping:                             1\nBogoMIPS:                             7985.11\nFlags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves avx512_bf16 clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid fsrm\nVirtualization:                       AMD-V\nHypervisor vendor:                    Microsoft\nVirtualization type:                  full\nL1d cache:                            256 KiB (8 instances)\nL1i cache:                            256 KiB (8 instances)\nL2 cache:                             8 MiB (8 instances)\nL3 cache:                             16 MiB (1 instance)\nNUMA node(s):                         1\nNUMA node0 CPU(s):                    0-15\nVulnerability Gather data sampling:   Not affected\nVulnerability Itlb multihit:          Not affected\nVulnerability L1tf:                   Not affected\nVulnerability Mds:                    Not affected\nVulnerability Meltdown:               Not affected\nVulnerability Mmio stale data:        Not affected\nVulnerability Reg file data sampling: Not affected\nVulnerability Retbleed:               Not affected\nVulnerability Spec rstack overflow:   Vulnerable: Safe RET, no microcode\nVulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:             Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                  Not affected\nVulnerability Tsx async abort:        Not affected",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "randomization_seed": 7319042,
+  "blocks_per_stream": 10,
+  "timed_calls_per_process": 3,
+  "datasets": [
+    {
+      "path": "*/source/data/uniform_1000000_s45.csv",
+      "kind": "uniform",
+      "seed": 45,
+      "sha256": "e9eab98da6bdf341735e01eac6bbf2573bb12dbf869aafd64e2dec32f5216d58"
+    },
+    {
+      "path": "*/source/data/iid-replicates/uniform_1000000_s101.csv",
+      "kind": "uniform",
+      "seed": 101,
+      "sha256": "afd6786c06b4eabc6eb3adebec623d2a0ac047e6b25100773998a1c62ee5927e"
+    },
+    {
+      "path": "*/source/data/iid-replicates/uniform_1000000_s102.csv",
+      "kind": "uniform",
+      "seed": 102,
+      "sha256": "1dfa4155ce5c4d22dd9a6fa8879cc1fcd65bf673b9c6c5a95456f5c7d5c77a5f"
+    },
+    {
+      "path": "*/source/data/iid-replicates/uniform_1000000_s103.csv",
+      "kind": "uniform",
+      "seed": 103,
+      "sha256": "c9c2f3d68e66982e7bfd1bacf0f436a11c5bca830dd44435a0352a66ad18d512"
+    },
+    {
+      "path": "*/source/data/iid-replicates/uniform_1000000_s104.csv",
+      "kind": "uniform",
+      "seed": 104,
+      "sha256": "8400ee8cac30acac220d0e7b41ab8d9048c6814375af9a4622cc22ec5192437e"
+    },
+    {
+      "path": "*/source/data/iid-replicates/uniform_1000000_s105.csv",
+      "kind": "uniform",
+      "seed": 105,
+      "sha256": "d1a860d7b4f6a07168a20c9f55f95264d6facf1d3f3eca7c7a5792173f3f01de"
+    },
+    {
+      "path": "*/source/data/iid-replicates/uniform_1000000_s106.csv",
+      "kind": "uniform",
+      "seed": 106,
+      "sha256": "8bbf62a40582649e904ab29a9df2ea05ec23c0e39008db0568bf99f94fcd0f3f"
+    },
+    {
+      "path": "*/source/data/iid-replicates/uniform_1000000_s107.csv",
+      "kind": "uniform",
+      "seed": 107,
+      "sha256": "6f5e4424df01bb3809c782383e7f23f61409e0b63a47281c15190a337676e273"
+    },
+    {
+      "path": "*/source/data/iid-replicates/uniform_1000000_s108.csv",
+      "kind": "uniform",
+      "seed": 108,
+      "sha256": "fe93d36753aadd6bb13735f0b8279027591859c0445272c336824690c43f721b"
+    },
+    {
+      "path": "*/source/data/iid-replicates/uniform_1000000_s109.csv",
+      "kind": "uniform",
+      "seed": 109,
+      "sha256": "253f71d693e995dd2152b6473b4339d7c17fd5c5e28edfca3fb8449e73173221"
+    },
+    {
+      "path": "*/source/data/normal_1000000_s43.csv",
+      "kind": "normal",
+      "seed": 43,
+      "sha256": "9abaa9fc28a5272efc52298d618928800f80f092cc77d3d54db05a7e24c356e2"
+    },
+    {
+      "path": "*/source/data/iid-replicates/normal_1000000_s101.csv",
+      "kind": "normal",
+      "seed": 101,
+      "sha256": "e3311c11a9b568cb3ac08ebc93d66d9630d5e2ffb3684c3c56ba148695dbc333"
+    },
+    {
+      "path": "*/source/data/iid-replicates/normal_1000000_s102.csv",
+      "kind": "normal",
+      "seed": 102,
+      "sha256": "5119bb9b589f7adb99275021875d41a5807f4aa8013b922ea6015b5807ce4ecc"
+    },
+    {
+      "path": "*/source/data/iid-replicates/normal_1000000_s103.csv",
+      "kind": "normal",
+      "seed": 103,
+      "sha256": "319bb885bef2032f7a8d40015b6045bd1930db651ae96c8ff7cf0d5ecf2539ad"
+    },
+    {
+      "path": "*/source/data/iid-replicates/normal_1000000_s104.csv",
+      "kind": "normal",
+      "seed": 104,
+      "sha256": "0bf59251c4115c7f2e6ae30ecec6b37d695ee5a92bd08ebf73cd03352e02bbb2"
+    },
+    {
+      "path": "*/source/data/iid-replicates/normal_1000000_s105.csv",
+      "kind": "normal",
+      "seed": 105,
+      "sha256": "767e21faa8d289cbcd0e597c493ba7bb0497f32e425b834a14ae0e09f71bfc1c"
+    },
+    {
+      "path": "*/source/data/iid-replicates/normal_1000000_s106.csv",
+      "kind": "normal",
+      "seed": 106,
+      "sha256": "fa806376bdd0820aa99684b598d31a257c9acee6d7a3c130b1e80d2acdcac789"
+    },
+    {
+      "path": "*/source/data/iid-replicates/normal_1000000_s107.csv",
+      "kind": "normal",
+      "seed": 107,
+      "sha256": "46d1d07fe714cc7ad753eb62d566ea1d3cd7163112f6465884853d5bec67fc84"
+    },
+    {
+      "path": "*/source/data/iid-replicates/normal_1000000_s108.csv",
+      "kind": "normal",
+      "seed": 108,
+      "sha256": "3076700e44cc316e4e586079b8a4b1ee6f1986b89ceeece5a2978b901a15e08e"
+    },
+    {
+      "path": "*/source/data/iid-replicates/normal_1000000_s109.csv",
+      "kind": "normal",
+      "seed": 109,
+      "sha256": "115fa795ff3d614f8889161d137e7055f04b0cb2b57f29d616af3dc2587db531"
+    },
+    {
+      "path": "*/source/data/pareto_1000000_s44.csv",
+      "kind": "pareto",
+      "seed": 44,
+      "sha256": "a0e55e7094b81d9fcc7707c3e6f345a530bd746e3418e6f3370b4305bf07ccdb"
+    },
+    {
+      "path": "*/source/data/iid-replicates/pareto_1000000_s101.csv",
+      "kind": "pareto",
+      "seed": 101,
+      "sha256": "9f3275da83c9a4a6a4dd53228d1c65d7e547c3f53c3433b6278fbae19a56524a"
+    },
+    {
+      "path": "*/source/data/iid-replicates/pareto_1000000_s102.csv",
+      "kind": "pareto",
+      "seed": 102,
+      "sha256": "f7f45eb132d49edb55a5a9a19533a614246b6dfe863e421e47417c58d0aed5d7"
+    },
+    {
+      "path": "*/source/data/iid-replicates/pareto_1000000_s103.csv",
+      "kind": "pareto",
+      "seed": 103,
+      "sha256": "6047fe193cb41c4761f39389339e0581c491368ab2a928fd296fb3201baee043"
+    },
+    {
+      "path": "*/source/data/iid-replicates/pareto_1000000_s104.csv",
+      "kind": "pareto",
+      "seed": 104,
+      "sha256": "3347f3f5febf3a0b67cbfaa4a973ba40c43e7dc61eccefa552346b7c1fff66a3"
+    },
+    {
+      "path": "*/source/data/iid-replicates/pareto_1000000_s105.csv",
+      "kind": "pareto",
+      "seed": 105,
+      "sha256": "5f8cbce20e17685f5c25f3b0899f36791e4e1c91ea75b9f43d403fbaa51d62be"
+    },
+    {
+      "path": "*/source/data/iid-replicates/pareto_1000000_s106.csv",
+      "kind": "pareto",
+      "seed": 106,
+      "sha256": "b420ba0a5979653c00f3f75dec344da1e463d30c94897b87c7c2c458b6afb99f"
+    },
+    {
+      "path": "*/source/data/iid-replicates/pareto_1000000_s107.csv",
+      "kind": "pareto",
+      "seed": 107,
+      "sha256": "964f73b6cc17cd43e67d3747019e201278dbb12ef07ffa6cee03cbb80fc1757a"
+    },
+    {
+      "path": "*/source/data/iid-replicates/pareto_1000000_s108.csv",
+      "kind": "pareto",
+      "seed": 108,
+      "sha256": "316598910fbe5ed5f1c4ecf75ef8d0d862d856cfb1334a83aa6fbbfaba98ba77"
+    },
+    {
+      "path": "*/source/data/iid-replicates/pareto_1000000_s109.csv",
+      "kind": "pareto",
+      "seed": 109,
+      "sha256": "88f30b1e5ad65ea69b294557f015ba9108cc292011a2e49804b24eae08f54062"
+    },
+    {
+      "path": "*/source/data/nyc_yellow_2024_01_distance_chrono_1000000.csv",
+      "kind": "nyc",
+      "seed": "fixed",
+      "sha256": "c29f7683cb9c057b3119f67cbcfd5e87393115e31cb6c00b53e5d1b0d3e78d92"
+    }
+  ],
+  "started_unix": 1793003157.0821521,
+  "paired_blocks_completed": 310,
+  "edge_test_hashes": [
+    "finite_ties,100,3468304529826482947",
+    "finite_distinct,100,1068597669046849005",
+    "nan_candidate,100,6497178130710426915",
+    "nan_boundary,100,8472538191142378467",
+    "null_fallback,100,17236684821454785643",
+    "ascending_fallback,100,14981922768289837714",
+    "offset_fallback,100,9042118385732647235",
+    "multikey_fallback,100,3468304529826482947",
+    "large_k_fallback,101,11248588976839235841",
+    "parallel_combine,100,10446521013942733582"
+  ],
+  "status": "complete",
+  "finished_unix": 1793004589.452395
+}

@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,topn_operator_ns,root_latency_ns,rows,checksum,topn_nodes
+array_scalar,"*/source/data/iid-replicates/normal_1000000_s108.csv",100,0,11575570,10019196,11410597,100,15679994842398562048,1
+array_scalar,"*/source/data/iid-replicates/normal_1000000_s108.csv",100,1,11472457,9963514,11337061,100,15679994842398562048,1
+array_scalar,"*/source/data/iid-replicates/normal_1000000_s108.csv",100,2,10516725,8949513,10387643,100,15679994842398562048,1

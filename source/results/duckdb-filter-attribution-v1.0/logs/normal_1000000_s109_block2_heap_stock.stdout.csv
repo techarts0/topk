@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,rows,checksum,cycles,instructions,branches,branch_misses,perf_running_pct
+heap_stock,"*/source/data/iid-replicates/normal_1000000_s109.csv",100,0,10377990,100,4088722162989552658,24101369,71017568,16034990,23386,100
+heap_stock,"*/source/data/iid-replicates/normal_1000000_s109.csv",100,1,10327239,100,4088722162989552658,23938912,71025950,16036578,23062,100
+heap_stock,"*/source/data/iid-replicates/normal_1000000_s109.csv",100,2,10242993,100,4088722162989552658,23779239,71054190,16040129,22204,100

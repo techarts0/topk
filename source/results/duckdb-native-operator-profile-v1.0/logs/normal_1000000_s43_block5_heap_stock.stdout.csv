@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,topn_operator_ns,root_latency_ns,rows,checksum,topn_nodes
+heap_stock,"*/source/data/normal_1000000_s43.csv",100,0,13317737,10767359,12505324,100,8140860105131817583,1
+heap_stock,"*/source/data/normal_1000000_s43.csv",100,1,14819849,12523485,14600239,100,8140860105131817583,1
+heap_stock,"*/source/data/normal_1000000_s43.csv",100,2,14777097,12520797,14565785,100,8140860105131817583,1

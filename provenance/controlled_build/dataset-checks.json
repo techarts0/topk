@@ -1,0 +1,1682 @@
+[
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 1,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 1,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 1,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 1,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 1,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 1,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 1,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 64,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 64,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 64,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 64,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 64,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 64,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 64,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 100,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 100,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 100,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 100,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 100,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 100,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 100,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 128,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 128,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 128,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 128,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 128,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 128,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "decreasing_100003_s42.csv",
+    "k": 128,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 1,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 1,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 1,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 1,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 1,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 1,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 1,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 64,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 64,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 64,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 64,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 64,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 64,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 64,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 100,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 100,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 100,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 100,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 100,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 100,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 100,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 128,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 128,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 128,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 128,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 128,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 128,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "drift_100003_s42.csv",
+    "k": 128,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 1,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 1,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 1,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 1,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 1,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 1,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 1,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 64,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 64,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 64,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 64,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 64,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 64,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 64,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 100,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 100,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 100,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 100,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 100,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 100,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 100,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 128,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 128,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 128,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 128,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 128,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 128,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "equal_100003_s42.csv",
+    "k": 128,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 1,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 1,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 1,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 1,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 1,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 1,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 1,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 64,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 64,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 64,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 64,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 64,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 64,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 64,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 100,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 100,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 100,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 100,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 100,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 100,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 100,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 128,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 128,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 128,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 128,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 128,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 128,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "increasing_100003_s42.csv",
+    "k": 128,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 1,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 1,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 1,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 1,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 1,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 1,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 1,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 64,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 64,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 64,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 64,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 64,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 64,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 64,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 100,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 100,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 100,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 100,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 100,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 100,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 100,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 128,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 128,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 128,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 128,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 128,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 128,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "normal_100003_s42.csv",
+    "k": 128,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 1,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 1,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 1,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 1,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 1,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 1,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 1,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 64,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 64,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 64,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 64,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 64,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 64,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 64,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 100,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 100,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 100,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 100,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 100,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 100,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 100,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 128,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 128,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 128,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 128,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 128,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 128,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "nyc_yellow_2024_01_distance_chrono_100003.csv",
+    "k": 128,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 1,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 1,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 1,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 1,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 1,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 1,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 1,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 64,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 64,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 64,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 64,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 64,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 64,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 64,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 100,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 100,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 100,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 100,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 100,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 100,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 100,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 128,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 128,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 128,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 128,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 128,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 128,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "pareto_100003_s42.csv",
+    "k": 128,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 1,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 1,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 1,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 1,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 1,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 1,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 1,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 64,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 64,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 64,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 64,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 64,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 64,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 64,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 100,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 100,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 100,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 100,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 100,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 100,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 100,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 128,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 128,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 128,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 128,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 128,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 128,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "ranks_100003_s42.csv",
+    "k": 128,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 1,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 1,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 1,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 1,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 1,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 1,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 1,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 64,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 64,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 64,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 64,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 64,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 64,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 64,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 100,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 100,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 100,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 100,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 100,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 100,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 100,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 128,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 128,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 128,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 128,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 128,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 128,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "ties_100003_s42.csv",
+    "k": 128,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 1,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 1,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 1,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 1,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 1,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 1,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 1,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 64,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 64,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 64,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 64,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 64,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 64,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 64,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 100,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 100,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 100,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 100,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 100,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 100,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 100,
+    "method": "stl",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 128,
+    "method": "heap_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 128,
+    "method": "heap_batch",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 128,
+    "method": "heap_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 128,
+    "method": "array_scalar",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 128,
+    "method": "array_batch",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 128,
+    "method": "array_avx2",
+    "status": "pass"
+  },
+  {
+    "data": "uniform_100003_s42.csv",
+    "k": 128,
+    "method": "stl",
+    "status": "pass"
+  }
+]

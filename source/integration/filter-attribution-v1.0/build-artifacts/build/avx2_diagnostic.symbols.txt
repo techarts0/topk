@@ -1,0 +1,424 @@
+0000000000000000 r .LC1
+00000000000000b0 r .LC16
+0000000000000030 r .LC2
+0000000000000000 r .LC20
+00000000000000d8 r .LC21
+0000000000000000 r .LC23
+0000000000000000 r .LC27
+0000000000000000 r .LC28
+0000000000000000 r .LC32
+0000000000000005 r .LC33
+0000000000000009 r .LC34
+000000000000001e r .LC35
+0000000000000020 r .LC36
+0000000000000110 r .LC39
+0000000000000078 r .LC4
+0000000000000148 r .LC42
+0000000000000000 V DW.ref.__gxx_personality_v0
+                 U _GLOBAL_OFFSET_TABLE_
+                 U _Unwind_Resume
+0000000000000000 b guard variable for duckdb::TopNHeap::CheckBoundaryValues(duckdb::DataChunk&, duckdb::DataChunk&, duckdb::TopNBoundaryValue&)::has_avx2
+                 U duckdb::StringHeap::Move(duckdb::StringHeap&)
+                 U duckdb::StringHeap::AddBlob(duckdb::string_t const&)
+                 U duckdb::StringHeap::Destroy()
+                 U duckdb::StringHeap::StringHeap(duckdb::Allocator&)
+                 U duckdb::StringUtil::CIHash(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+                 U duckdb::StringUtil::CIEquals(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+0000000000000000 W duckdb::unique_ptr<duckdb::Expression, std::default_delete<duckdb::Expression>, true>::AssertNotNull(bool)
+                 U duckdb::LogicalType::LogicalType(duckdb::LogicalTypeId)
+                 U duckdb::LogicalType::LogicalType(duckdb::LogicalType&&)
+                 U duckdb::LogicalType::LogicalType(duckdb::LogicalType const&)
+                 U duckdb::LogicalType::~LogicalType()
+0000000000001a90 T duckdb::PhysicalTopN::PhysicalTopN(duckdb::PhysicalPlan&, duckdb::vector<duckdb::LogicalType, true>, duckdb::vector<duckdb::BoundOrderByNode, true>, unsigned long, unsigned long, duckdb::shared_ptr<duckdb::DynamicFilterData, true>, unsigned long)
+0000000000001a90 T duckdb::PhysicalTopN::PhysicalTopN(duckdb::PhysicalPlan&, duckdb::vector<duckdb::LogicalType, true>, duckdb::vector<duckdb::BoundOrderByNode, true>, unsigned long, unsigned long, duckdb::shared_ptr<duckdb::DynamicFilterData, true>, unsigned long)
+00000000000007ba t duckdb::PhysicalTopN::PhysicalTopN(duckdb::PhysicalPlan&, duckdb::vector<duckdb::LogicalType, true>, duckdb::vector<duckdb::BoundOrderByNode, true>, unsigned long, unsigned long, duckdb::shared_ptr<duckdb::DynamicFilterData, true>, unsigned long) [clone .cold]
+0000000000000ef0 T duckdb::PhysicalTopN::~PhysicalTopN()
+0000000000000d30 T duckdb::PhysicalTopN::~PhysicalTopN()
+0000000000000d30 T duckdb::PhysicalTopN::~PhysicalTopN()
+                 U duckdb::AllocatedData::~AllocatedData()
+                 U duckdb::BufferManager::GetBufferManager(duckdb::ClientContext&)
+0000000000001950 T duckdb::PhysicalOrder::PhysicalOrder(duckdb::PhysicalPlan&, duckdb::vector<duckdb::LogicalType, true>, duckdb::vector<duckdb::BoundOrderByNode, true>, duckdb::vector<unsigned long, true>, unsigned long, bool)
+0000000000001950 T duckdb::PhysicalOrder::PhysicalOrder(duckdb::PhysicalPlan&, duckdb::vector<duckdb::LogicalType, true>, duckdb::vector<duckdb::BoundOrderByNode, true>, duckdb::vector<unsigned long, true>, unsigned long, bool)
+00000000000007aa t duckdb::PhysicalOrder::PhysicalOrder(duckdb::PhysicalPlan&, duckdb::vector<duckdb::LogicalType, true>, duckdb::vector<duckdb::BoundOrderByNode, true>, duckdb::vector<unsigned long, true>, unsigned long, bool) [clone .cold]
+0000000000000000 W duckdb::PhysicalOrder::~PhysicalOrder()
+0000000000000000 W duckdb::PhysicalOrder::~PhysicalOrder()
+0000000000000000 W duckdb::PhysicalOrder::~PhysicalOrder()
+0000000000000000 n duckdb::PhysicalOrder::~PhysicalOrder()
+                 U duckdb::SelectionData::SelectionData(unsigned long)
+0000000000000000 W duckdb::TopNScanState::~TopNScanState()
+0000000000000000 W duckdb::TopNScanState::~TopNScanState()
+0000000000000000 n duckdb::TopNScanState::~TopNScanState()
+                 U duckdb::ArenaAllocator::~ArenaAllocator()
+                 U duckdb::BaseStatistics::~BaseStatistics()
+0000000000000000 W duckdb::LocalSinkState::~LocalSinkState()
+0000000000000000 W duckdb::LocalSinkState::~LocalSinkState()
+0000000000000000 W duckdb::LocalSinkState::~LocalSinkState()
+0000000000000000 n duckdb::LocalSinkState::~LocalSinkState()
+                 U duckdb::BufferAllocator::Get(duckdb::ClientContext&)
+0000000000000000 W duckdb::ExpressionState::~ExpressionState()
+0000000000000000 W duckdb::ExpressionState::~ExpressionState()
+0000000000000000 W duckdb::ExpressionState::~ExpressionState()
+0000000000000000 n duckdb::ExpressionState::~ExpressionState()
+0000000000000000 W duckdb::GlobalSinkState::MaxThreads(unsigned long)
+0000000000000000 W duckdb::GlobalSinkState::~GlobalSinkState()
+0000000000000000 W duckdb::GlobalSinkState::~GlobalSinkState()
+0000000000000000 W duckdb::GlobalSinkState::~GlobalSinkState()
+0000000000000000 n duckdb::GlobalSinkState::~GlobalSinkState()
+                 U duckdb::PhysicalOperator::BuildPipelines(duckdb::Pipeline&, duckdb::MetaPipeline&)
+                 U duckdb::PhysicalOperator::Verify()
+                 U duckdb::PhysicalOperator::PhysicalOperator(duckdb::PhysicalPlan&, duckdb::PhysicalOperatorType, duckdb::vector<duckdb::LogicalType, true>, unsigned long)
+                 U duckdb::VectorOperations::NotDistinctFrom(duckdb::Vector&, duckdb::Vector&, duckdb::optional_ptr<duckdb::SelectionVector const, true>, unsigned long, duckdb::optional_ptr<duckdb::SelectionVector, true>, duckdb::optional_ptr<duckdb::SelectionVector, true>)
+                 U duckdb::VectorOperations::DistinctLessThan(duckdb::Vector&, duckdb::Vector&, duckdb::optional_ptr<duckdb::SelectionVector const, true>, unsigned long, duckdb::optional_ptr<duckdb::SelectionVector, true>, duckdb::optional_ptr<duckdb::SelectionVector, true>, duckdb::optional_ptr<duckdb::ValidityMask, true>)
+                 U duckdb::VectorOperations::DistinctGreaterThan(duckdb::Vector&, duckdb::Vector&, duckdb::optional_ptr<duckdb::SelectionVector const, true>, unsigned long, duckdb::optional_ptr<duckdb::SelectionVector, true>, duckdb::optional_ptr<duckdb::SelectionVector, true>, duckdb::optional_ptr<duckdb::ValidityMask, true>)
+                 U duckdb::VectorOperations::DistinctLessThanNullsFirst(duckdb::Vector&, duckdb::Vector&, duckdb::optional_ptr<duckdb::SelectionVector const, true>, unsigned long, duckdb::optional_ptr<duckdb::SelectionVector, true>, duckdb::optional_ptr<duckdb::SelectionVector, true>, duckdb::optional_ptr<duckdb::ValidityMask, true>)
+                 U duckdb::VectorOperations::DistinctGreaterThanNullsFirst(duckdb::Vector&, duckdb::Vector&, duckdb::optional_ptr<duckdb::SelectionVector const, true>, unsigned long, duckdb::optional_ptr<duckdb::SelectionVector, true>, duckdb::optional_ptr<duckdb::SelectionVector, true>, duckdb::optional_ptr<duckdb::ValidityMask, true>)
+                 U duckdb::DynamicFilterData::Reset()
+                 U duckdb::DynamicFilterData::SetValue(duckdb::Value)
+0000000000000000 W duckdb::GlobalSourceState::MaxThreads()
+0000000000000000 W duckdb::GlobalSourceState::~GlobalSourceState()
+0000000000000000 W duckdb::GlobalSourceState::~GlobalSourceState()
+0000000000000000 W duckdb::GlobalSourceState::~GlobalSourceState()
+0000000000000000 n duckdb::GlobalSourceState::~GlobalSourceState()
+                 U duckdb::InternalException::InternalException(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+0000000000000000 W duckdb::InternalException::InternalException<duckdb::PhysicalType, duckdb::PhysicalType>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, duckdb::PhysicalType, duckdb::PhysicalType)
+0000000000000000 W duckdb::InternalException::InternalException<unsigned long, unsigned long>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long, unsigned long)
+0000000000000000 W duckdb::InternalException::InternalException<duckdb::PhysicalType, duckdb::PhysicalType>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, duckdb::PhysicalType, duckdb::PhysicalType)
+0000000000000000 W duckdb::InternalException::InternalException<unsigned long, unsigned long>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long, unsigned long)
+0000000000000000 n duckdb::InternalException::InternalException<duckdb::PhysicalType, duckdb::PhysicalType>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, duckdb::PhysicalType, duckdb::PhysicalType)
+0000000000000000 n duckdb::InternalException::InternalException<unsigned long, unsigned long>(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, unsigned long, unsigned long)
+0000000000000000 W duckdb::InternalException::~InternalException()
+0000000000000000 W duckdb::InternalException::~InternalException()
+0000000000000000 W duckdb::InternalException::~InternalException()
+0000000000000000 n duckdb::InternalException::~InternalException()
+                 U duckdb::ExpressionExecutor::AddExpression(duckdb::Expression const&)
+                 U duckdb::ExpressionExecutor::Execute(duckdb::DataChunk*, duckdb::DataChunk&)
+                 U duckdb::ExpressionExecutor::ExpressionExecutor(duckdb::ClientContext&)
+0000000000000000 W duckdb::ExpressionExecutor::~ExpressionExecutor()
+0000000000000000 W duckdb::ExpressionExecutor::~ExpressionExecutor()
+0000000000000000 n duckdb::ExpressionExecutor::~ExpressionExecutor()
+0000000000000000 W duckdb::TopNLocalSinkState::~TopNLocalSinkState()
+0000000000000000 W duckdb::TopNLocalSinkState::~TopNLocalSinkState()
+0000000000000000 W duckdb::TopNLocalSinkState::~TopNLocalSinkState()
+0000000000000000 n duckdb::TopNLocalSinkState::~TopNLocalSinkState()
+0000000000000000 W duckdb::GlobalOperatorState::~GlobalOperatorState()
+0000000000000000 W duckdb::GlobalOperatorState::~GlobalOperatorState()
+0000000000000000 W duckdb::GlobalOperatorState::~GlobalOperatorState()
+0000000000000000 n duckdb::GlobalOperatorState::~GlobalOperatorState()
+0000000000000000 W duckdb::OrderLocalSinkState::~OrderLocalSinkState()
+0000000000000000 W duckdb::OrderLocalSinkState::~OrderLocalSinkState()
+0000000000000000 W duckdb::OrderLocalSinkState::~OrderLocalSinkState()
+0000000000000000 n duckdb::OrderLocalSinkState::~OrderLocalSinkState()
+0000000000000000 W duckdb::TopNGlobalSinkState::~TopNGlobalSinkState()
+0000000000000000 W duckdb::TopNGlobalSinkState::~TopNGlobalSinkState()
+0000000000000000 W duckdb::TopNGlobalSinkState::~TopNGlobalSinkState()
+0000000000000000 n duckdb::TopNGlobalSinkState::~TopNGlobalSinkState()
+                 U duckdb::CreateSortKeyHelpers::CreateSortKey(duckdb::DataChunk&, duckdb::vector<duckdb::OrderModifiers, true> const&, duckdb::Vector&)
+                 U duckdb::CreateSortKeyHelpers::DecodeSortKey(duckdb::string_t, duckdb::Vector&, unsigned long, duckdb::OrderModifiers)
+                 U duckdb::CreateSortKeyHelpers::DecodeSortKey(duckdb::string_t, duckdb::DataChunk&, unsigned long, duckdb::vector<duckdb::OrderModifiers, true> const&)
+                 U duckdb::ExceptionFormatValue duckdb::ExceptionFormatValue::CreateFormatValue<duckdb::PhysicalType>(duckdb::PhysicalType)
+                 U duckdb::ExceptionFormatValue duckdb::ExceptionFormatValue::CreateFormatValue<unsigned long>(unsigned long)
+0000000000000000 W duckdb::OrderGlobalSinkState::~OrderGlobalSinkState()
+0000000000000000 W duckdb::OrderGlobalSinkState::~OrderGlobalSinkState()
+0000000000000000 W duckdb::OrderGlobalSinkState::~OrderGlobalSinkState()
+0000000000000000 n duckdb::OrderGlobalSinkState::~OrderGlobalSinkState()
+0000000000000000 W duckdb::TopNLocalSourceState::~TopNLocalSourceState()
+0000000000000000 W duckdb::TopNLocalSourceState::~TopNLocalSourceState()
+0000000000000000 W duckdb::TopNLocalSourceState::~TopNLocalSourceState()
+0000000000000000 n duckdb::TopNLocalSourceState::~TopNLocalSourceState()
+0000000000000000 W duckdb::OrderLocalSourceState::~OrderLocalSourceState()
+0000000000000000 W duckdb::OrderLocalSourceState::~OrderLocalSourceState()
+0000000000000000 W duckdb::OrderLocalSourceState::~OrderLocalSourceState()
+0000000000000000 n duckdb::OrderLocalSourceState::~OrderLocalSourceState()
+0000000000000000 W duckdb::TopNGlobalSourceState::MaxThreads()
+0000000000000000 W duckdb::TopNGlobalSourceState::~TopNGlobalSourceState()
+0000000000000000 W duckdb::TopNGlobalSourceState::~TopNGlobalSourceState()
+0000000000000000 W duckdb::TopNGlobalSourceState::~TopNGlobalSourceState()
+0000000000000000 n duckdb::TopNGlobalSourceState::~TopNGlobalSourceState()
+0000000000000000 W duckdb::OrderGlobalSourceState::MaxThreads()
+0000000000000000 W duckdb::OrderGlobalSourceState::~OrderGlobalSourceState()
+0000000000000000 W duckdb::OrderGlobalSourceState::~OrderGlobalSourceState()
+0000000000000000 W duckdb::OrderGlobalSourceState::~OrderGlobalSourceState()
+0000000000000000 n duckdb::OrderGlobalSourceState::~OrderGlobalSourceState()
+0000000000000000 W duckdb::InsertionOrderPreservingMap<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >::operator[](std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+                 U duckdb::Sort::Sort(duckdb::ClientContext&, duckdb::vector<duckdb::BoundOrderByNode, true> const&, duckdb::vector<duckdb::LogicalType, true> const&, duckdb::vector<unsigned long, true>, bool)
+0000000000000000 W duckdb::Sort::~Sort()
+0000000000000000 W duckdb::Sort::~Sort()
+0000000000000000 n duckdb::Sort::~Sort()
+                 U duckdb::Value::Value(duckdb::Value&&)
+                 U duckdb::Value::~Value()
+                 U duckdb::Vector::SetVectorType(duckdb::VectorType)
+                 U duckdb::Vector::Slice(duckdb::Vector const&, duckdb::SelectionVector const&, unsigned long)
+                 U duckdb::Vector::Reference(duckdb::Vector const&)
+                 U duckdb::Vector::Vector(duckdb::LogicalType, unsigned long)
+0000000000000000 W duckdb::Vector::~Vector()
+0000000000000000 W duckdb::Vector::~Vector()
+0000000000000000 n duckdb::Vector::~Vector()
+0000000000000000 W duckdb::vector<duckdb::BoundOrderByNode, true>::AssertIndexInBounds(unsigned long, unsigned long)
+0000000000000000 W duckdb::vector<duckdb::Vector, true>::AssertIndexInBounds(unsigned long, unsigned long)
+00000000000057b0 T duckdb::TopNHeap::AddLargeHeap(duckdb::DataChunk&, duckdb::Vector&)
+0000000000001c66 t duckdb::TopNHeap::AddLargeHeap(duckdb::DataChunk&, duckdb::Vector&) [clone .cold]
+0000000000005d80 T duckdb::TopNHeap::AddSmallHeap(duckdb::DataChunk&, duckdb::Vector&)
+0000000000001d14 t duckdb::TopNHeap::AddSmallHeap(duckdb::DataChunk&, duckdb::Vector&) [clone .cold]
+0000000000003b00 T duckdb::TopNHeap::InitializeScan(duckdb::TopNScanState&, bool)
+00000000000011ac t duckdb::TopNHeap::InitializeScan(duckdb::TopNScanState&, bool) [clone .cold]
+00000000000063b0 T duckdb::TopNHeap::CheckBoundaryValues(duckdb::DataChunk&, duckdb::DataChunk&, duckdb::TopNBoundaryValue&)
+0000000000001dc4 t duckdb::TopNHeap::CheckBoundaryValues(duckdb::DataChunk&, duckdb::DataChunk&, duckdb::TopNBoundaryValue&) [clone .cold]
+0000000000001ea0 T duckdb::TopNHeap::Scan(duckdb::TopNScanState&, duckdb::DataChunk&, unsigned long&)
+00000000000009d8 t duckdb::TopNHeap::Scan(duckdb::TopNScanState&, duckdb::DataChunk&, unsigned long&) [clone .cold]
+0000000000007070 T duckdb::TopNHeap::Sink(duckdb::DataChunk&, duckdb::optional_ptr<duckdb::TopNBoundaryValue, true>)
+00000000000026d2 t duckdb::TopNHeap::Sink(duckdb::DataChunk&, duckdb::optional_ptr<duckdb::TopNBoundaryValue, true>) [clone .cold]
+00000000000020e0 T duckdb::TopNHeap::Reduce()
+0000000000000a76 t duckdb::TopNHeap::Reduce() [clone .cold]
+0000000000002510 T duckdb::TopNHeap::Combine(duckdb::TopNHeap&)
+00000000000016d0 T duckdb::TopNHeap::Finalize()
+00000000000039a0 T duckdb::TopNHeap::TopNHeap(duckdb::ClientContext&, duckdb::vector<duckdb::LogicalType, true> const&, duckdb::vector<duckdb::BoundOrderByNode, true> const&, unsigned long, unsigned long)
+0000000000002b80 T duckdb::TopNHeap::TopNHeap(duckdb::ClientContext&, duckdb::Allocator&, duckdb::vector<duckdb::LogicalType, true> const&, duckdb::vector<duckdb::BoundOrderByNode, true> const&, unsigned long, unsigned long)
+0000000000003a00 T duckdb::TopNHeap::TopNHeap(duckdb::ExecutionContext&, duckdb::vector<duckdb::LogicalType, true> const&, duckdb::vector<duckdb::BoundOrderByNode, true> const&, unsigned long, unsigned long)
+00000000000039a0 T duckdb::TopNHeap::TopNHeap(duckdb::ClientContext&, duckdb::vector<duckdb::LogicalType, true> const&, duckdb::vector<duckdb::BoundOrderByNode, true> const&, unsigned long, unsigned long)
+0000000000002b80 T duckdb::TopNHeap::TopNHeap(duckdb::ClientContext&, duckdb::Allocator&, duckdb::vector<duckdb::LogicalType, true> const&, duckdb::vector<duckdb::BoundOrderByNode, true> const&, unsigned long, unsigned long)
+0000000000000b76 t duckdb::TopNHeap::TopNHeap(duckdb::ClientContext&, duckdb::Allocator&, duckdb::vector<duckdb::LogicalType, true> const&, duckdb::vector<duckdb::BoundOrderByNode, true> const&, unsigned long, unsigned long) [clone .cold]
+0000000000003a00 T duckdb::TopNHeap::TopNHeap(duckdb::ExecutionContext&, duckdb::vector<duckdb::LogicalType, true> const&, duckdb::vector<duckdb::BoundOrderByNode, true> const&, unsigned long, unsigned long)
+0000000000000000 W duckdb::TopNHeap::~TopNHeap()
+0000000000000000 W duckdb::TopNHeap::~TopNHeap()
+0000000000000000 n duckdb::TopNHeap::~TopNHeap()
+                 U duckdb::Allocator::DefaultAllocator()
+                 U duckdb::DataChunk::Initialize(duckdb::Allocator&, duckdb::vector<duckdb::LogicalType, true> const&, unsigned long)
+                 U duckdb::DataChunk::Reset()
+                 U duckdb::DataChunk::Slice(duckdb::SelectionVector const&, unsigned long)
+                 U duckdb::DataChunk::Slice(duckdb::DataChunk const&, duckdb::SelectionVector const&, unsigned long, unsigned long)
+                 U duckdb::DataChunk::Append(duckdb::DataChunk const&, bool, duckdb::SelectionVector*, unsigned long)
+                 U duckdb::DataChunk::Flatten()
+                 U duckdb::DataChunk::Reference(duckdb::DataChunk&)
+                 U duckdb::DataChunk::DataChunk()
+                 U duckdb::DataChunk::~DataChunk()
+                 U duckdb::Exception::ConstructMessageRecursive(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::vector<duckdb::ExceptionFormatValue, std::allocator<duckdb::ExceptionFormatValue> >&)
+0000000000000000 W duckdb::Exception::~Exception()
+0000000000000000 W duckdb::Exception::~Exception()
+0000000000000000 W duckdb::Exception::~Exception()
+0000000000000000 n duckdb::Exception::~Exception()
+0000000000000080 t duckdb::TopNAVX2FilterGreater(double const*, unsigned long, double, duckdb::SelectionVector&)
+                 U duckdb::LogicalType::operator==(duckdb::LogicalType const&) const
+0000000000000000 W duckdb::PhysicalTopN::SourceOrder() const
+0000000000000000 W duckdb::PhysicalTopN::ParallelSink() const
+0000000000000000 W duckdb::PhysicalTopN::ParallelSource() const
+0000000000004800 T duckdb::PhysicalTopN::ParamsToString[abi:cxx11]() const
+000000000000189c t duckdb::PhysicalTopN::ParamsToString[abi:cxx11]() const [clone .cold]
+00000000000001e0 T duckdb::PhysicalTopN::GetPartitionData(duckdb::ExecutionContext&, duckdb::DataChunk&, duckdb::GlobalSourceState&, duckdb::LocalSourceState&, duckdb::OperatorPartitionInfo const&) const
+00000000000000b2 t duckdb::PhysicalTopN::GetPartitionData(duckdb::ExecutionContext&, duckdb::DataChunk&, duckdb::GlobalSourceState&, duckdb::LocalSourceState&, duckdb::OperatorPartitionInfo const&) const [clone .cold]
+0000000000003a60 T duckdb::PhysicalTopN::GetLocalSinkState(duckdb::ExecutionContext&) const
+000000000000115a t duckdb::PhysicalTopN::GetLocalSinkState(duckdb::ExecutionContext&) const [clone .cold]
+0000000000003fb0 T duckdb::PhysicalTopN::GetGlobalSinkState(duckdb::ClientContext&) const
+00000000000013ca t duckdb::PhysicalTopN::GetGlobalSinkState(duckdb::ClientContext&) const [clone .cold]
+0000000000000040 T duckdb::PhysicalTopN::GetLocalSourceState(duckdb::ExecutionContext&, duckdb::GlobalSourceState&) const
+0000000000003cd0 T duckdb::PhysicalTopN::GetGlobalSourceState(duckdb::ClientContext&) const
+0000000000001252 t duckdb::PhysicalTopN::GetGlobalSourceState(duckdb::ClientContext&) const [clone .cold]
+0000000000000000 W duckdb::PhysicalTopN::SupportsPartitioning(duckdb::OperatorPartitionInfo const&) const
+00000000000075a0 T duckdb::PhysicalTopN::Sink(duckdb::ExecutionContext&, duckdb::DataChunk&, duckdb::OperatorSinkInput&) const
+0000000000000000 W duckdb::PhysicalTopN::IsSink() const
+0000000000002b20 T duckdb::PhysicalTopN::Combine(duckdb::ExecutionContext&, duckdb::OperatorSinkCombineInput&) const
+0000000000000b66 t duckdb::PhysicalTopN::Combine(duckdb::ExecutionContext&, duckdb::OperatorSinkCombineInput&) const [clone .cold]
+0000000000001ff0 T duckdb::PhysicalTopN::GetData(duckdb::ExecutionContext&, duckdb::DataChunk&, duckdb::OperatorSourceInput&) const
+00000000000009f0 t duckdb::PhysicalTopN::GetData(duckdb::ExecutionContext&, duckdb::DataChunk&, duckdb::OperatorSourceInput&) const [clone .cold]
+0000000000001930 T duckdb::PhysicalTopN::Finalize(duckdb::Pipeline&, duckdb::Event&, duckdb::ClientContext&, duckdb::OperatorSinkFinalizeInput&) const
+0000000000000000 W duckdb::PhysicalTopN::IsSource() const
+00000000000002d0 T duckdb::PhysicalOrder::GetProgress(duckdb::ClientContext&, duckdb::GlobalSourceState&) const
+00000000000002ca t duckdb::PhysicalOrder::GetProgress(duckdb::ClientContext&, duckdb::GlobalSourceState&) const [clone .cold]
+0000000000000000 W duckdb::PhysicalOrder::SourceOrder() const
+0000000000000000 W duckdb::PhysicalOrder::ParallelSink() const
+0000000000000000 W duckdb::PhysicalOrder::ParallelSource() const
+0000000000004190 T duckdb::PhysicalOrder::ParamsToString[abi:cxx11]() const
+00000000000015b0 t duckdb::PhysicalOrder::ParamsToString[abi:cxx11]() const [clone .cold]
+0000000000000ac0 T duckdb::PhysicalOrder::GetSinkProgress(duckdb::ClientContext&, duckdb::GlobalSinkState&, duckdb::ProgressData) const
+00000000000004fc t duckdb::PhysicalOrder::GetSinkProgress(duckdb::ClientContext&, duckdb::GlobalSinkState&, duckdb::ProgressData) const [clone .cold]
+0000000000000250 T duckdb::PhysicalOrder::GetPartitionData(duckdb::ExecutionContext&, duckdb::DataChunk&, duckdb::GlobalSourceState&, duckdb::LocalSourceState&, duckdb::OperatorPartitionInfo const&) const
+0000000000000138 t duckdb::PhysicalOrder::GetPartitionData(duckdb::ExecutionContext&, duckdb::DataChunk&, duckdb::GlobalSourceState&, duckdb::LocalSourceState&, duckdb::OperatorPartitionInfo const&) const [clone .cold]
+0000000000000000 T duckdb::PhysicalOrder::GetLocalSinkState(duckdb::ExecutionContext&) const
+0000000000001cb0 T duckdb::PhysicalOrder::GetGlobalSinkState(duckdb::ClientContext&) const
+0000000000000900 t duckdb::PhysicalOrder::GetGlobalSinkState(duckdb::ClientContext&) const [clone .cold]
+0000000000000000 W duckdb::PhysicalOrder::SinkOrderDependent() const
+0000000000000330 T duckdb::PhysicalOrder::GetLocalSourceState(duckdb::ExecutionContext&, duckdb::GlobalSourceState&) const
+0000000000000350 t duckdb::PhysicalOrder::GetLocalSourceState(duckdb::ExecutionContext&, duckdb::GlobalSourceState&) const [clone .cold]
+0000000000001bd0 T duckdb::PhysicalOrder::GetGlobalSourceState(duckdb::ClientContext&) const
+00000000000007ca t duckdb::PhysicalOrder::GetGlobalSourceState(duckdb::ClientContext&) const [clone .cold]
+0000000000000000 W duckdb::PhysicalOrder::SupportsPartitioning(duckdb::OperatorPartitionInfo const&) const
+0000000000000ba0 T duckdb::PhysicalOrder::Sink(duckdb::ExecutionContext&, duckdb::DataChunk&, duckdb::OperatorSinkInput&) const
+000000000000060c t duckdb::PhysicalOrder::Sink(duckdb::ExecutionContext&, duckdb::DataChunk&, duckdb::OperatorSinkInput&) const [clone .cold]
+0000000000000000 W duckdb::PhysicalOrder::IsSink() const
+0000000000000ca0 T duckdb::PhysicalOrder::Combine(duckdb::ExecutionContext&, duckdb::OperatorSinkCombineInput&) const
+0000000000000720 t duckdb::PhysicalOrder::Combine(duckdb::ExecutionContext&, duckdb::OperatorSinkCombineInput&) const [clone .cold]
+0000000000000a40 T duckdb::PhysicalOrder::GetData(duckdb::ExecutionContext&, duckdb::DataChunk&, duckdb::OperatorSourceInput&) const
+00000000000003e8 t duckdb::PhysicalOrder::GetData(duckdb::ExecutionContext&, duckdb::DataChunk&, duckdb::OperatorSourceInput&) const [clone .cold]
+0000000000000b30 T duckdb::PhysicalOrder::Finalize(duckdb::Pipeline&, duckdb::Event&, duckdb::ClientContext&, duckdb::OperatorSinkFinalizeInput&) const
+0000000000000582 t duckdb::PhysicalOrder::Finalize(duckdb::Pipeline&, duckdb::Event&, duckdb::ClientContext&, duckdb::OperatorSinkFinalizeInput&) const [clone .cold]
+0000000000000000 W duckdb::PhysicalOrder::IsSource() const
+                 U duckdb::PhysicalOperator::GetSources() const
+                 U duckdb::PhysicalOperator::GetChildren() const
+                 U duckdb::PhysicalOperator::GetProgress(duckdb::ClientContext&, duckdb::GlobalSourceState&) const
+                 U duckdb::PhysicalOperator::FinalExecute(duckdb::ExecutionContext&, duckdb::DataChunk&, duckdb::GlobalOperatorState&, duckdb::OperatorState&) const
+0000000000000000 W duckdb::PhysicalOperator::OperatorOrder() const
+0000000000000000 W duckdb::PhysicalOperator::GetSinkProgress(duckdb::ClientContext&, duckdb::GlobalSinkState&, duckdb::ProgressData) const
+                 U duckdb::PhysicalOperator::PrepareFinalize(duckdb::ClientContext&, duckdb::GlobalSinkState&) const
+                 U duckdb::PhysicalOperator::GetOperatorState(duckdb::ExecutionContext&) const
+                 U duckdb::PhysicalOperator::OperatorFinalize(duckdb::Pipeline&, duckdb::Event&, duckdb::ClientContext&, duckdb::OperatorFinalizeInput&) const
+0000000000000000 W duckdb::PhysicalOperator::ParallelOperator() const
+0000000000000000 W duckdb::PhysicalOperator::ExtraSourceParams[abi:cxx11](duckdb::GlobalSourceState&, duckdb::LocalSourceState&) const
+0000000000000000 W duckdb::PhysicalOperator::SinkOrderDependent() const
+0000000000000000 W duckdb::PhysicalOperator::RequiresFinalExecute() const
+0000000000000000 W duckdb::PhysicalOperator::RequiredPartitionInfo() const
+                 U duckdb::PhysicalOperator::GetGlobalOperatorState(duckdb::ClientContext&) const
+0000000000000000 W duckdb::PhysicalOperator::RequiresOperatorFinalize() const
+0000000000000000 W duckdb::PhysicalOperator::Equals(duckdb::PhysicalOperator const&) const
+                 U duckdb::PhysicalOperator::Execute(duckdb::ExecutionContext&, duckdb::DataChunk&, duckdb::DataChunk&, duckdb::GlobalOperatorState&, duckdb::OperatorState&) const
+                 U duckdb::PhysicalOperator::GetName[abi:cxx11]() const
+                 U duckdb::PhysicalOperator::ToString[abi:cxx11](duckdb::ExplainFormat) const
+                 U duckdb::PhysicalOperator::NextBatch(duckdb::ExecutionContext&, duckdb::OperatorSinkNextBatchInput&) const
+                 U duckdb::Sort::GetProgress(duckdb::ClientContext&, duckdb::GlobalSourceState&) const
+                 U duckdb::Sort::GetSinkProgress(duckdb::ClientContext&, duckdb::GlobalSinkState&, duckdb::ProgressData) const
+                 U duckdb::Sort::GetPartitionData(duckdb::ExecutionContext&, duckdb::DataChunk&, duckdb::GlobalSourceState&, duckdb::LocalSourceState&, duckdb::OperatorPartitionInfo const&) const
+                 U duckdb::Sort::GetLocalSinkState(duckdb::ExecutionContext&) const
+                 U duckdb::Sort::GetGlobalSinkState(duckdb::ClientContext&) const
+                 U duckdb::Sort::GetLocalSourceState(duckdb::ExecutionContext&, duckdb::GlobalSourceState&) const
+                 U duckdb::Sort::GetGlobalSourceState(duckdb::ClientContext&, duckdb::GlobalSinkState&) const
+                 U duckdb::Sort::Sink(duckdb::ExecutionContext&, duckdb::DataChunk&, duckdb::OperatorSinkInput&) const
+                 U duckdb::Sort::Combine(duckdb::ExecutionContext&, duckdb::OperatorSinkCombineInput&) const
+                 U duckdb::Sort::GetData(duckdb::ExecutionContext&, duckdb::DataChunk&, duckdb::OperatorSourceInput&) const
+                 U duckdb::Sort::Finalize(duckdb::ClientContext&, duckdb::OperatorSinkFinalizeInput&) const
+                 U duckdb::Vector::GetValue(unsigned long) const
+                 U std::runtime_error::what() const
+                 U std::__detail::_Prime_rehash_policy::_M_need_rehash(unsigned long, unsigned long, unsigned long) const
+0000000000000000 W std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned long>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned long> >, std::__detail::_Select1st, duckdb::CaseInsensitiveStringEquality, duckdb::CaseInsensitiveStringHashFunction, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::_M_rehash(unsigned long, unsigned long const&)
+0000000000000000 W std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned long>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned long> >, std::__detail::_Select1st, duckdb::CaseInsensitiveStringEquality, duckdb::CaseInsensitiveStringHashFunction, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::~_Hashtable()
+0000000000000000 W std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned long>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned long> >, std::__detail::_Select1st, duckdb::CaseInsensitiveStringEquality, duckdb::CaseInsensitiveStringHashFunction, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::~_Hashtable()
+0000000000000000 n std::_Hashtable<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned long>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned long> >, std::__detail::_Select1st, duckdb::CaseInsensitiveStringEquality, duckdb::CaseInsensitiveStringHashFunction, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true> >::~_Hashtable()
+                 U std::runtime_error::~runtime_error()
+0000000000000000 W std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>::_M_release()
+0000000000000000 W std::_Sp_counted_ptr_inplace<duckdb::SelectionData, std::allocator<duckdb::SelectionData>, (__gnu_cxx::_Lock_policy)2>::_M_destroy()
+0000000000000000 W std::_Sp_counted_ptr_inplace<duckdb::SelectionData, std::allocator<duckdb::SelectionData>, (__gnu_cxx::_Lock_policy)2>::_M_dispose()
+0000000000000000 W std::_Sp_counted_ptr_inplace<duckdb::SelectionData, std::allocator<duckdb::SelectionData>, (__gnu_cxx::_Lock_policy)2>::_M_get_deleter(std::type_info const&)
+0000000000000000 W std::_Sp_counted_ptr_inplace<duckdb::SelectionData, std::allocator<duckdb::SelectionData>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+0000000000000000 W std::_Sp_counted_ptr_inplace<duckdb::SelectionData, std::allocator<duckdb::SelectionData>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+0000000000000000 W std::_Sp_counted_ptr_inplace<duckdb::SelectionData, std::allocator<duckdb::SelectionData>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+0000000000000000 n std::_Sp_counted_ptr_inplace<duckdb::SelectionData, std::allocator<duckdb::SelectionData>, (__gnu_cxx::_Lock_policy)2>::~_Sp_counted_ptr_inplace()
+0000000000000000 W void std::vector<duckdb::LogicalType, std::allocator<duckdb::LogicalType> >::_M_realloc_insert<duckdb::LogicalType const&>(__gnu_cxx::__normal_iterator<duckdb::LogicalType*, std::vector<duckdb::LogicalType, std::allocator<duckdb::LogicalType> > >, duckdb::LogicalType const&)
+0000000000000000 W std::vector<duckdb::LogicalType, std::allocator<duckdb::LogicalType> >::~vector()
+0000000000000000 W std::vector<duckdb::LogicalType, std::allocator<duckdb::LogicalType> >::~vector()
+0000000000000000 n std::vector<duckdb::LogicalType, std::allocator<duckdb::LogicalType> >::~vector()
+0000000000000000 W std::vector<duckdb::InterruptState, std::allocator<duckdb::InterruptState> >::~vector()
+0000000000000000 W std::vector<duckdb::InterruptState, std::allocator<duckdb::InterruptState> >::~vector()
+0000000000000000 n std::vector<duckdb::InterruptState, std::allocator<duckdb::InterruptState> >::~vector()
+0000000000000000 W void std::vector<duckdb::ExceptionFormatValue, std::allocator<duckdb::ExceptionFormatValue> >::_M_realloc_insert<duckdb::ExceptionFormatValue>(__gnu_cxx::__normal_iterator<duckdb::ExceptionFormatValue*, std::vector<duckdb::ExceptionFormatValue, std::allocator<duckdb::ExceptionFormatValue> > >, duckdb::ExceptionFormatValue&&)
+0000000000000000 W std::vector<duckdb::ExceptionFormatValue, std::allocator<duckdb::ExceptionFormatValue> >::~vector()
+0000000000000000 W std::vector<duckdb::ExceptionFormatValue, std::allocator<duckdb::ExceptionFormatValue> >::~vector()
+0000000000000000 n std::vector<duckdb::ExceptionFormatValue, std::allocator<duckdb::ExceptionFormatValue> >::~vector()
+0000000000000000 W void std::vector<duckdb::TopNEntry, std::allocator<duckdb::TopNEntry> >::_M_realloc_insert<duckdb::TopNEntry const&>(__gnu_cxx::__normal_iterator<duckdb::TopNEntry*, std::vector<duckdb::TopNEntry, std::allocator<duckdb::TopNEntry> > >, duckdb::TopNEntry const&)
+0000000000000000 W void std::vector<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::_M_realloc_insert<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >(__gnu_cxx::__normal_iterator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >*, std::vector<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > > >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&&)
+0000000000000000 W std::vector<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::~vector()
+0000000000000000 W std::vector<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::~vector()
+0000000000000000 n std::vector<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > >, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > > > >::~vector()
+0000000000000000 W std::vector<unsigned int, std::allocator<unsigned int> >::_M_default_append(unsigned long)
+                 U std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_construct(unsigned long, char)
+                 U std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_append(char const*, unsigned long)
+                 U std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_assign(std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+                 U std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::_M_create(unsigned long&, unsigned long)
+0000000000000000 t std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >::basic_string(char const*, std::allocator<char> const&) [clone .constprop.0]
+0000000000000000 W std::__detail::_Map_base<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >, std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned long>, std::allocator<std::pair<std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const, unsigned long> >, std::__detail::_Select1st, duckdb::CaseInsensitiveStringEquality, duckdb::CaseInsensitiveStringHashFunction, std::__detail::_Mod_range_hashing, std::__detail::_Default_ranged_hash, std::__detail::_Prime_rehash_policy, std::__detail::_Hashtable_traits<true, false, true>, true>::operator[](std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> > const&)
+00000000000003c0 t void std::__adjust_heap<__gnu_cxx::__normal_iterator<duckdb::TopNEntry*, std::vector<duckdb::TopNEntry, std::allocator<duckdb::TopNEntry> > >, long, duckdb::TopNEntry, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<duckdb::TopNEntry*, std::vector<duckdb::TopNEntry, std::allocator<duckdb::TopNEntry> > >, long, long, duckdb::TopNEntry, __gnu_cxx::__ops::_Iter_less_iter) [clone .isra.0]
+00000000000007b0 t void std::__insertion_sort<__gnu_cxx::__normal_iterator<duckdb::TopNEntry*, std::vector<duckdb::TopNEntry, std::allocator<duckdb::TopNEntry> > >, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<duckdb::TopNEntry*, std::vector<duckdb::TopNEntry, std::allocator<duckdb::TopNEntry> > >, __gnu_cxx::__normal_iterator<duckdb::TopNEntry*, std::vector<duckdb::TopNEntry, std::allocator<duckdb::TopNEntry> > >, __gnu_cxx::__ops::_Iter_less_iter) [clone .isra.0]
+0000000000000f10 t void std::__introsort_loop<__gnu_cxx::__normal_iterator<duckdb::TopNEntry*, std::vector<duckdb::TopNEntry, std::allocator<duckdb::TopNEntry> > >, long, __gnu_cxx::__ops::_Iter_less_iter>(__gnu_cxx::__normal_iterator<duckdb::TopNEntry*, std::vector<duckdb::TopNEntry, std::allocator<duckdb::TopNEntry> > >, __gnu_cxx::__normal_iterator<duckdb::TopNEntry*, std::vector<duckdb::TopNEntry, std::allocator<duckdb::TopNEntry> > >, long, __gnu_cxx::__ops::_Iter_less_iter) [clone .isra.0]
+                 U std::__throw_bad_alloc()
+                 U std::__throw_logic_error(char const*)
+                 U std::__throw_length_error(char const*)
+                 U std::__throw_system_error(int)
+                 U std::__throw_bad_array_new_length()
+0000000000000000 V typeinfo for duckdb::PhysicalTopN
+0000000000000000 V typeinfo for duckdb::PhysicalOrder
+0000000000000000 V typeinfo for duckdb::LocalSinkState
+0000000000000000 V typeinfo for duckdb::ExpressionState
+0000000000000000 V typeinfo for duckdb::GlobalSinkState
+0000000000000000 V typeinfo for duckdb::LocalSourceState
+                 U typeinfo for duckdb::PhysicalOperator
+0000000000000000 V typeinfo for duckdb::GlobalSourceState
+0000000000000000 V typeinfo for duckdb::InternalException
+0000000000000000 V typeinfo for duckdb::TopNLocalSinkState
+0000000000000000 V typeinfo for duckdb::OrderLocalSinkState
+0000000000000000 V typeinfo for duckdb::TopNGlobalSinkState
+0000000000000000 V typeinfo for duckdb::OrderGlobalSinkState
+0000000000000000 V typeinfo for duckdb::TopNLocalSourceState
+0000000000000000 V typeinfo for duckdb::OrderLocalSourceState
+0000000000000000 V typeinfo for duckdb::TopNGlobalSourceState
+0000000000000000 V typeinfo for duckdb::OrderGlobalSourceState
+0000000000000000 V typeinfo for duckdb::StateWithBlockableTasks
+0000000000000000 V typeinfo for duckdb::Exception
+0000000000000000 V typeinfo for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>
+                 U typeinfo for std::runtime_error
+0000000000000000 V typeinfo for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>
+0000000000000000 V typeinfo for std::_Sp_counted_ptr_inplace<duckdb::SelectionData, std::allocator<duckdb::SelectionData>, (__gnu_cxx::_Lock_policy)2>
+0000000000000000 V typeinfo name for duckdb::PhysicalTopN
+0000000000000000 V typeinfo name for duckdb::PhysicalOrder
+0000000000000000 V typeinfo name for duckdb::LocalSinkState
+0000000000000000 V typeinfo name for duckdb::ExpressionState
+0000000000000000 V typeinfo name for duckdb::GlobalSinkState
+0000000000000000 V typeinfo name for duckdb::LocalSourceState
+0000000000000000 V typeinfo name for duckdb::GlobalSourceState
+0000000000000000 V typeinfo name for duckdb::InternalException
+0000000000000000 V typeinfo name for duckdb::TopNLocalSinkState
+0000000000000000 V typeinfo name for duckdb::OrderLocalSinkState
+0000000000000000 V typeinfo name for duckdb::TopNGlobalSinkState
+0000000000000000 V typeinfo name for duckdb::OrderGlobalSinkState
+0000000000000000 V typeinfo name for duckdb::TopNLocalSourceState
+0000000000000000 V typeinfo name for duckdb::OrderLocalSourceState
+0000000000000000 V typeinfo name for duckdb::TopNGlobalSourceState
+0000000000000000 V typeinfo name for duckdb::OrderGlobalSourceState
+0000000000000000 V typeinfo name for duckdb::StateWithBlockableTasks
+0000000000000000 V typeinfo name for duckdb::Exception
+0000000000000000 V typeinfo name for std::_Mutex_base<(__gnu_cxx::_Lock_policy)2>
+0000000000000000 V typeinfo name for std::_Sp_counted_base<(__gnu_cxx::_Lock_policy)2>
+0000000000000000 V typeinfo name for std::_Sp_make_shared_tag
+0000000000000000 V typeinfo name for std::_Sp_counted_ptr_inplace<duckdb::SelectionData, std::allocator<duckdb::SelectionData>, (__gnu_cxx::_Lock_policy)2>
+                 U vtable for __cxxabiv1::__class_type_info
+                 U vtable for __cxxabiv1::__si_class_type_info
+                 U vtable for __cxxabiv1::__vmi_class_type_info
+0000000000000000 V vtable for duckdb::PhysicalTopN
+0000000000000000 V vtable for duckdb::PhysicalOrder
+0000000000000000 V vtable for duckdb::LocalSinkState
+0000000000000000 V vtable for duckdb::ExpressionState
+0000000000000000 V vtable for duckdb::GlobalSinkState
+                 U vtable for duckdb::PhysicalOperator
+0000000000000000 V vtable for duckdb::GlobalSourceState
+0000000000000000 V vtable for duckdb::TopNLocalSinkState
+0000000000000000 V vtable for duckdb::OrderLocalSinkState
+0000000000000000 V vtable for duckdb::TopNGlobalSinkState
+0000000000000000 V vtable for duckdb::OrderGlobalSinkState
+0000000000000000 V vtable for duckdb::TopNLocalSourceState
+0000000000000000 V vtable for duckdb::OrderLocalSourceState
+0000000000000000 V vtable for duckdb::TopNGlobalSourceState
+0000000000000000 V vtable for duckdb::OrderGlobalSourceState
+0000000000000000 V vtable for duckdb::Exception
+0000000000000000 V vtable for std::_Sp_counted_ptr_inplace<duckdb::SelectionData, std::allocator<duckdb::SelectionData>, (__gnu_cxx::_Lock_policy)2>
+0000000000000008 b duckdb::TopNHeap::CheckBoundaryValues(duckdb::DataChunk&, duckdb::DataChunk&, duckdb::TopNBoundaryValue&)::has_avx2
+0000000000000000 u std::_Sp_make_shared_tag::_S_ti()::__tag
+0000000000000000 u std::__detail::__to_chars_10_impl<unsigned long>(char*, unsigned int, unsigned long)::__digits
+                 U operator delete(void*)
+                 U operator new(unsigned long)
+                 U __cpu_indicator_init
+                 U __cpu_model
+                 U __cxa_allocate_exception
+                 U __cxa_begin_catch
+                 U __cxa_end_catch
+                 U __cxa_free_exception
+                 U __cxa_guard_acquire
+                 U __cxa_guard_release
+                 U __cxa_rethrow
+                 U __cxa_throw
+                 U __gxx_personality_v0
+                 U __libc_single_threaded
+                 U __memcpy_chk
+                 U __stack_chk_fail
+                 U memcmp
+                 U memcpy
+                 U memmove
+                 U memset
+                 U pthread_mutex_lock
+                 U pthread_mutex_unlock
+                 U strcmp
+                 U strlen

@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,rows,checksum,cycles,instructions,branches,branch_misses,perf_running_pct
+heap_scalar_specialized,"*/source/data/nyc_yellow_2024_01_distance_chrono_1000000.csv",100,0,2566709,100,17106052885660980423,5453898,12943888,4018420,17900,100
+heap_scalar_specialized,"*/source/data/nyc_yellow_2024_01_distance_chrono_1000000.csv",100,1,2445399,100,17106052885660980423,5113154,12954995,4020770,17143,100
+heap_scalar_specialized,"*/source/data/nyc_yellow_2024_01_distance_chrono_1000000.csv",100,2,3114997,100,17106052885660980423,5726287,12980783,4023003,19104,100

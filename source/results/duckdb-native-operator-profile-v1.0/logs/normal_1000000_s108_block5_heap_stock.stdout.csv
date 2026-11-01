@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,topn_operator_ns,root_latency_ns,rows,checksum,topn_nodes
+heap_stock,"*/source/data/iid-replicates/normal_1000000_s108.csv",100,0,14872333,11502508,13775566,100,15679994842398562048,1
+heap_stock,"*/source/data/iid-replicates/normal_1000000_s108.csv",100,1,13152692,11031152,12946650,100,15679994842398562048,1
+heap_stock,"*/source/data/iid-replicates/normal_1000000_s108.csv",100,2,13033045,10594987,12852631,100,15679994842398562048,1

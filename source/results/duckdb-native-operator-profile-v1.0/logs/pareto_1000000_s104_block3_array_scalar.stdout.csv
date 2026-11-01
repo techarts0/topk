@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,topn_operator_ns,root_latency_ns,rows,checksum,topn_nodes
+array_scalar,"*/source/data/iid-replicates/pareto_1000000_s104.csv",100,0,16427659,13792917,16192470,100,9685720316780803119,1
+array_scalar,"*/source/data/iid-replicates/pareto_1000000_s104.csv",100,1,12402002,10630025,12241805,100,9685720316780803119,1
+array_scalar,"*/source/data/iid-replicates/pareto_1000000_s104.csv",100,2,11892336,10013292,11738669,100,9685720316780803119,1

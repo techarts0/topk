@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,topn_operator_ns,root_latency_ns,rows,checksum,topn_nodes
+heap_avx2,"*/source/data/iid-replicates/uniform_1000000_s101.csv",100,0,4559158,2102427,3640164,100,9424330962739520243,1
+heap_avx2,"*/source/data/iid-replicates/uniform_1000000_s101.csv",100,1,2904833,1710392,2785595,100,9424330962739520243,1
+heap_avx2,"*/source/data/iid-replicates/uniform_1000000_s101.csv",100,2,3063489,1830907,2950421,100,9424330962739520243,1

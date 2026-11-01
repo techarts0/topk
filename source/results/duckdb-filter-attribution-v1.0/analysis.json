@@ -1,0 +1,470 @@
+{
+  "plan_sha256": "39d176fc8324f94bac0e43989b32b1a7e58cf813dccb3cb8c210ea67aa18327c",
+  "run_manifest_sha256": "3c3e7593ded4b9a5c298566a333297f50b240806ad9016d7a296fcf0c6664edd",
+  "timing_rows": 2790,
+  "paired_blocks": 310,
+  "bootstrap_replicates": 100000,
+  "bootstrap_seed": 7319043,
+  "family_intervals": 9,
+  "coverage_pct": 99.4444444444,
+  "distributions": {
+    "uniform": {
+      "seed_ids": [
+        "45",
+        "101",
+        "102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109"
+      ],
+      "n_seeds": 10,
+      "n_blocks": 100,
+      "contrasts": {
+        "stock_over_scalar": {
+          "ratio": 3.628360186020143,
+          "lower_familywise_95": 3.3751023875475985,
+          "upper_familywise_95": 3.8987930572476435,
+          "coverage_pct": 99.4444444444,
+          "log_ratio_seed_means": [
+            1.3125476433018266,
+            1.407515732775218,
+            1.2992342846296054,
+            1.2884680135163395,
+            1.2086226362424304,
+            1.2445315955772718,
+            1.3647135362178417,
+            1.2397126931900835,
+            1.2291662561092533,
+            1.2932956766740538
+          ]
+        },
+        "scalar_over_avx2": {
+          "ratio": 1.041611571978495,
+          "lower_familywise_95": 0.9422582544853335,
+          "upper_familywise_95": 1.147276802985024,
+          "coverage_pct": 99.4444444444,
+          "log_ratio_seed_means": [
+            0.09371362919463606,
+            -0.1363774161017363,
+            -0.06410629489379474,
+            0.17799193713851907,
+            0.08071907027500844,
+            0.011107375381158502,
+            0.0016857826834035,
+            0.0938827737461057,
+            0.09143247668515794,
+            0.057641688099916356
+          ]
+        },
+        "stock_over_avx2": {
+          "ratio": 3.7793419570646263,
+          "lower_familywise_95": 3.50422252167415,
+          "upper_familywise_95": 4.077967517792875,
+          "coverage_pct": 99.4444444444,
+          "log_ratio_seed_means": [
+            1.4062612724964627,
+            1.2711383166734813,
+            1.235127989735811,
+            1.4664599506548588,
+            1.2893417065174388,
+            1.2556389709584308,
+            1.3663993189012453,
+            1.333595466936189,
+            1.320598732794411,
+            1.3509373647739702
+          ]
+        }
+      },
+      "pmu": {
+        "cycles": {
+          "stock_over_scalar": {
+            "geomean_ratio": 3.8441987084705707,
+            "n_seed_blocks": 100
+          },
+          "scalar_over_avx2": {
+            "geomean_ratio": 1.038005732060597,
+            "n_seed_blocks": 100
+          }
+        },
+        "instructions": {
+          "stock_over_scalar": {
+            "geomean_ratio": 5.3784700542024995,
+            "n_seed_blocks": 100
+          },
+          "scalar_over_avx2": {
+            "geomean_ratio": 1.3936431409748518,
+            "n_seed_blocks": 100
+          }
+        },
+        "branches": {
+          "stock_over_scalar": {
+            "geomean_ratio": 3.933227652646709,
+            "n_seed_blocks": 100
+          },
+          "scalar_over_avx2": {
+            "geomean_ratio": 1.7463296012328466,
+            "n_seed_blocks": 100
+          }
+        },
+        "branch_misses": {
+          "stock_over_scalar": {
+            "geomean_ratio": 1.3664647215102743,
+            "n_seed_blocks": 100
+          },
+          "scalar_over_avx2": {
+            "geomean_ratio": 0.9928952639604035,
+            "n_seed_blocks": 100
+          }
+        }
+      }
+    },
+    "normal": {
+      "seed_ids": [
+        "43",
+        "101",
+        "102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109"
+      ],
+      "n_seeds": 10,
+      "n_blocks": 100,
+      "contrasts": {
+        "stock_over_scalar": {
+          "ratio": 4.032751787655339,
+          "lower_familywise_95": 3.795890664924488,
+          "upper_familywise_95": 4.2478841061323775,
+          "coverage_pct": 99.4444444444,
+          "log_ratio_seed_means": [
+            1.3999279285009583,
+            1.4040408722795916,
+            1.4531961759603012,
+            1.4096147515466186,
+            1.4416490984800838,
+            1.382558950638796,
+            1.3810095808530944,
+            1.3556826340815245,
+            1.3960594399310355,
+            1.32075025432905
+          ]
+        },
+        "scalar_over_avx2": {
+          "ratio": 1.0568233518886962,
+          "lower_familywise_95": 0.9724547267979542,
+          "upper_familywise_95": 1.1339029901663842,
+          "coverage_pct": 99.4444444444,
+          "log_ratio_seed_means": [
+            0.10339960636602626,
+            0.12863809949725416,
+            -0.11781262125548705,
+            0.058656964538109105,
+            0.011371870321960756,
+            0.0816608812222436,
+            0.08016682640279546,
+            -0.00418142384938489,
+            0.07823468130323671,
+            0.1325408231814186
+          ]
+        },
+        "stock_over_avx2": {
+          "ratio": 4.2619062615650485,
+          "lower_familywise_95": 3.9708550219136773,
+          "upper_familywise_95": 4.523651658494657,
+          "coverage_pct": 99.4444444444,
+          "log_ratio_seed_means": [
+            1.5033275348669846,
+            1.5326789717768459,
+            1.3353835547048138,
+            1.4682717160847276,
+            1.4530209688020446,
+            1.4642198318610395,
+            1.4611764072558897,
+            1.3515012102321395,
+            1.4742941212342724,
+            1.4532910775104684
+          ]
+        }
+      },
+      "pmu": {
+        "cycles": {
+          "stock_over_scalar": {
+            "geomean_ratio": 4.259112913138764,
+            "n_seed_blocks": 100
+          },
+          "scalar_over_avx2": {
+            "geomean_ratio": 1.0689026115967313,
+            "n_seed_blocks": 100
+          }
+        },
+        "instructions": {
+          "stock_over_scalar": {
+            "geomean_ratio": 5.424686620938121,
+            "n_seed_blocks": 100
+          },
+          "scalar_over_avx2": {
+            "geomean_ratio": 1.4000530504533657,
+            "n_seed_blocks": 100
+          }
+        },
+        "branches": {
+          "stock_over_scalar": {
+            "geomean_ratio": 3.9568356501916453,
+            "n_seed_blocks": 100
+          },
+          "scalar_over_avx2": {
+            "geomean_ratio": 1.7575720637132066,
+            "n_seed_blocks": 100
+          }
+        },
+        "branch_misses": {
+          "stock_over_scalar": {
+            "geomean_ratio": 1.3558043328468112,
+            "n_seed_blocks": 100
+          },
+          "scalar_over_avx2": {
+            "geomean_ratio": 1.0204762547003505,
+            "n_seed_blocks": 100
+          }
+        }
+      }
+    },
+    "pareto": {
+      "seed_ids": [
+        "44",
+        "101",
+        "102",
+        "103",
+        "104",
+        "105",
+        "106",
+        "107",
+        "108",
+        "109"
+      ],
+      "n_seeds": 10,
+      "n_blocks": 100,
+      "contrasts": {
+        "stock_over_scalar": {
+          "ratio": 3.99800402867116,
+          "lower_familywise_95": 3.747973708986737,
+          "upper_familywise_95": 4.203944831827266,
+          "coverage_pct": 99.4444444444,
+          "log_ratio_seed_means": [
+            1.3655982649055838,
+            1.433094463260287,
+            1.3661613646589832,
+            1.4040724885594922,
+            1.28671824465021,
+            1.392676776674895,
+            1.4419218636643119,
+            1.4128275200898355,
+            1.3678096794295833,
+            1.3870717716000822
+          ]
+        },
+        "scalar_over_avx2": {
+          "ratio": 1.0560229741844516,
+          "lower_familywise_95": 0.9920613490008153,
+          "upper_familywise_95": 1.13081317024871,
+          "coverage_pct": 99.4444444444,
+          "log_ratio_seed_means": [
+            0.05176624342407267,
+            0.015146354338708385,
+            0.024692344276349674,
+            0.10029681885410553,
+            0.13118949627638976,
+            0.0272092946336131,
+            0.012346426551781413,
+            -0.008751588433071644,
+            0.07313704917577327,
+            0.11806696994130557
+          ]
+        },
+        "stock_over_avx2": {
+          "ratio": 4.221984105158739,
+          "lower_familywise_95": 3.9834645362993646,
+          "upper_familywise_95": 4.458265227874906,
+          "coverage_pct": 99.4444444444,
+          "log_ratio_seed_means": [
+            1.4173645083296569,
+            1.4482408175989954,
+            1.390853708935333,
+            1.5043693074135978,
+            1.4179077409265997,
+            1.4198860713085084,
+            1.4542682902160933,
+            1.4040759316567637,
+            1.4409467286053566,
+            1.5051387415413877
+          ]
+        }
+      },
+      "pmu": {
+        "cycles": {
+          "stock_over_scalar": {
+            "geomean_ratio": 4.288828933922586,
+            "n_seed_blocks": 100
+          },
+          "scalar_over_avx2": {
+            "geomean_ratio": 1.0474353341492824,
+            "n_seed_blocks": 100
+          }
+        },
+        "instructions": {
+          "stock_over_scalar": {
+            "geomean_ratio": 5.419770721775807,
+            "n_seed_blocks": 100
+          },
+          "scalar_over_avx2": {
+            "geomean_ratio": 1.3987745865087862,
+            "n_seed_blocks": 100
+          }
+        },
+        "branches": {
+          "stock_over_scalar": {
+            "geomean_ratio": 3.9551627558567963,
+            "n_seed_blocks": 100
+          },
+          "scalar_over_avx2": {
+            "geomean_ratio": 1.7560481835347492,
+            "n_seed_blocks": 100
+          }
+        },
+        "branch_misses": {
+          "stock_over_scalar": {
+            "geomean_ratio": 1.3854265120299114,
+            "n_seed_blocks": 100
+          },
+          "scalar_over_avx2": {
+            "geomean_ratio": 0.9871102068885902,
+            "n_seed_blocks": 100
+          }
+        }
+      }
+    }
+  },
+  "nyc_descriptive": {
+    "blocks": [
+      {
+        "block": 1,
+        "stock_over_scalar": 2.9657406615485913,
+        "scalar_over_avx2": 1.5437533532291596,
+        "stock_over_avx2": 4.578372091073704
+      },
+      {
+        "block": 2,
+        "stock_over_scalar": 4.216553771165745,
+        "scalar_over_avx2": 0.9655039228504835,
+        "stock_over_avx2": 4.071099206970526
+      },
+      {
+        "block": 3,
+        "stock_over_scalar": 4.3821113526859925,
+        "scalar_over_avx2": 0.956615788890426,
+        "stock_over_avx2": 4.191996908655403
+      },
+      {
+        "block": 4,
+        "stock_over_scalar": 3.8739788649847617,
+        "scalar_over_avx2": 1.0158137660436275,
+        "stock_over_avx2": 3.935241060413589
+      },
+      {
+        "block": 5,
+        "stock_over_scalar": 4.805319964203187,
+        "scalar_over_avx2": 1.0022930002963875,
+        "stock_over_avx2": 4.816338564305342
+      },
+      {
+        "block": 6,
+        "stock_over_scalar": 4.107165595756889,
+        "scalar_over_avx2": 0.6932978540206817,
+        "stock_over_avx2": 2.847489093645826
+      },
+      {
+        "block": 7,
+        "stock_over_scalar": 3.938015568593733,
+        "scalar_over_avx2": 1.0563085505751089,
+        "stock_over_avx2": 4.159759517403459
+      },
+      {
+        "block": 8,
+        "stock_over_scalar": 4.779996295568461,
+        "scalar_over_avx2": 1.0763391442540609,
+        "stock_over_avx2": 5.144897122309738
+      },
+      {
+        "block": 9,
+        "stock_over_scalar": 4.164608670886658,
+        "scalar_over_avx2": 1.182423991451985,
+        "stock_over_avx2": 4.924333207465348
+      },
+      {
+        "block": 10,
+        "stock_over_scalar": 4.31412002342562,
+        "scalar_over_avx2": 0.9518998638194304,
+        "stock_over_avx2": 4.106610262799525
+      }
+    ],
+    "median": {
+      "stock_over_scalar": 4.190581221026202,
+      "scalar_over_avx2": 1.0090533831700075,
+      "stock_over_avx2": 4.175878213029431
+    },
+    "range": {
+      "stock_over_scalar": [
+        2.9657406615485913,
+        4.805319964203187
+      ],
+      "scalar_over_avx2": [
+        0.6932978540206817,
+        1.5437533532291596
+      ],
+      "stock_over_avx2": [
+        2.847489093645826,
+        5.144897122309738
+      ]
+    }
+  },
+  "analysis_plan_sha256": "4c378f15ebe51688b7d801c994cafc57b63c85237b8c73dea42dffe3370f39d3",
+  "pmu_descriptive_geomean_ratios": {
+    "uniform": {
+      "cycles_stock_over_scalar": 3.8441987084705715,
+      "cycles_scalar_over_avx2": 1.038005732060597,
+      "instructions_stock_over_scalar": 5.378470054202501,
+      "instructions_scalar_over_avx2": 1.3936431409748518,
+      "branches_stock_over_scalar": 3.9332276526467083,
+      "branches_scalar_over_avx2": 1.7463296012328466,
+      "branch_misses_stock_over_scalar": 1.3664647215102743,
+      "branch_misses_scalar_over_avx2": 0.9928952639604035
+    },
+    "normal": {
+      "cycles_stock_over_scalar": 4.259112913138762,
+      "cycles_scalar_over_avx2": 1.0689026115967313,
+      "instructions_stock_over_scalar": 5.42468662093812,
+      "instructions_scalar_over_avx2": 1.400053050453366,
+      "branches_stock_over_scalar": 3.9568356501916435,
+      "branches_scalar_over_avx2": 1.7575720637132066,
+      "branch_misses_stock_over_scalar": 1.3558043328468112,
+      "branch_misses_scalar_over_avx2": 1.0204762547003505
+    },
+    "pareto": {
+      "cycles_stock_over_scalar": 4.288828933922587,
+      "cycles_scalar_over_avx2": 1.0474353341492824,
+      "instructions_stock_over_scalar": 5.419770721775809,
+      "instructions_scalar_over_avx2": 1.3987745865087864,
+      "branches_stock_over_scalar": 3.9551627558567954,
+      "branches_scalar_over_avx2": 1.756048183534749,
+      "branch_misses_stock_over_scalar": 1.3854265120299114,
+      "branch_misses_scalar_over_avx2": 0.9871102068885902
+    }
+  }
+}

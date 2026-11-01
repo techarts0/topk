@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,rows,checksum,cycles,instructions,branches,branch_misses,perf_running_pct
+heap_scalar_specialized,"*/source/data/pareto_1000000_s44.csv",100,0,2877087,100,1768779312334132492,6008838,13008846,4031901,18958,100
+heap_scalar_specialized,"*/source/data/pareto_1000000_s44.csv",100,1,2467546,100,1768779312334132492,5461275,13017179,4033640,17000,100
+heap_scalar_specialized,"*/source/data/pareto_1000000_s44.csv",100,2,2522236,100,1768779312334132492,5188534,13060891,4039067,16404,100

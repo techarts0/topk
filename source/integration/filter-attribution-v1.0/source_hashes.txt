@@ -1,0 +1,3 @@
+Scalar-specialized source derived from the frozen heap+AVX2 source.
+base_heap_avx2_sha256=1f6615a6081870e5063366f5c7fa6344c7de9ddcdc4efb969af2288dae23509d
+scalar_source_sha256=6598875605363824818c6a84c6a2979cc4edef0aba372542ea63609d165d7119

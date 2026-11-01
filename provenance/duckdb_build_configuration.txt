@@ -1,0 +1,8 @@
+DuckDB 1.4.0 build cache values recorded on the experiment host:
+BUILD_SHELL:BOOL=OFF
+BUILD_UNITTESTS:BOOL=OFF
+CMAKE_BUILD_TYPE:STRING=Release
+CMAKE_CXX_COMPILER:FILEPATH=/usr/bin/c++
+ENABLE_EXTENSION_AUTOLOADING:BOOL=OFF
+
+The original build tree and CMake cache are not distributed; use these values as configuration guidance.

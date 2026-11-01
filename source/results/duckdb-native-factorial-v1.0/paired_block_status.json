@@ -1,0 +1,777 @@
+[
+  {
+    "dataset": "uniform_1000000_s45",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s45",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s45",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s45",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s45",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s101",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s101",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s101",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s101",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s101",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s102",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s102",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s102",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s102",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s102",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s103",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s103",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s103",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s103",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s103",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s104",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s104",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s104",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s104",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s104",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s105",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s105",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s105",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s105",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s105",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s106",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s106",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s106",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s106",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s106",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s107",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s107",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s107",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s107",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s107",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s108",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s108",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s108",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s108",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s108",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s109",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s109",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s109",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s109",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "uniform_1000000_s109",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s43",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s43",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s43",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s43",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s43",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s101",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s101",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s101",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s101",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s101",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s102",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s102",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s102",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s102",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s102",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s103",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s103",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s103",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s103",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s103",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s104",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s104",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s104",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s104",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s104",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s105",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s105",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s105",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s105",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s105",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s106",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s106",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s106",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s106",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s106",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s107",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s107",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s107",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s107",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s107",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s108",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s108",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s108",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s108",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s108",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s109",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s109",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s109",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s109",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "normal_1000000_s109",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s44",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s44",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s44",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s44",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s44",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s101",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s101",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s101",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s101",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s101",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s102",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s102",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s102",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s102",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s102",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s103",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s103",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s103",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s103",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s103",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s104",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s104",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s104",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s104",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s104",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s105",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s105",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s105",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s105",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s105",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s106",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s106",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s106",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s106",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s106",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s107",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s107",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s107",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s107",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s107",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s108",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s108",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s108",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s108",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s108",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s109",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s109",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s109",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s109",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "pareto_1000000_s109",
+    "block": 5,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "nyc_yellow_2024_01_distance_chrono_1000000",
+    "block": 1,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "nyc_yellow_2024_01_distance_chrono_1000000",
+    "block": 2,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "nyc_yellow_2024_01_distance_chrono_1000000",
+    "block": 3,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "nyc_yellow_2024_01_distance_chrono_1000000",
+    "block": 4,
+    "status": "four-way-valid"
+  },
+  {
+    "dataset": "nyc_yellow_2024_01_distance_chrono_1000000",
+    "block": 5,
+    "status": "four-way-valid"
+  }
+]

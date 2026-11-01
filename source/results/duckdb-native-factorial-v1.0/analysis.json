@@ -1,0 +1,529 @@
+{
+  "plan": "DUCKDB_NATIVE_FACTORIAL_PLAN_v1.0.md",
+  "primary_interval_coverage": 0.9966666666666667,
+  "primary_family_size": 15,
+  "bootstrap_reps": 100000,
+  "bootstrap_seed": 20261028,
+  "bootstrap_rng": "NumPy PCG64, vectorized hierarchical resampling",
+  "numpy_version": "2.4.1",
+  "timing_call_count": 1860,
+  "paired_four_way_block_count": 155,
+  "iid": {
+    "uniform": {
+      "contrasts": {
+        "package_heap_stock_over_array_avx2": {
+          "geomean_ratio": 4.215299950670195,
+          "lower_familywise_ci": 3.6909701837360247,
+          "upper_familywise_ci": 4.624111873675151,
+          "coverage": 0.9966666666666667,
+          "seed_count": 10,
+          "blocks_per_seed": 5,
+          "seed_effects": {
+            "101": 4.320284473725892,
+            "102": 4.076011438324607,
+            "103": 4.626474901699584,
+            "104": 4.324916287664504,
+            "105": 4.368316066676066,
+            "106": 4.55116134392949,
+            "107": 3.9927799079676856,
+            "108": 4.556870854779683,
+            "109": 4.022384126338253,
+            "45": 3.4549936972756554
+          }
+        },
+        "avx2_effect_on_heap": {
+          "geomean_ratio": 4.0456388673294805,
+          "lower_familywise_ci": 3.6655214001218193,
+          "upper_familywise_ci": 4.395445012781851,
+          "coverage": 0.9966666666666667,
+          "seed_count": 10,
+          "blocks_per_seed": 5,
+          "seed_effects": {
+            "101": 4.022306212028221,
+            "102": 3.979636781873567,
+            "103": 4.170064295058863,
+            "104": 3.9375127157329333,
+            "105": 4.516323797965848,
+            "106": 4.0641758158431935,
+            "107": 3.8101063174372785,
+            "108": 4.5420038144526105,
+            "109": 3.806329860656712,
+            "45": 3.69606222697325
+          }
+        },
+        "array_effect_with_stock_filter": {
+          "geomean_ratio": 1.012522463087185,
+          "lower_familywise_ci": 0.939186936935506,
+          "upper_familywise_ci": 1.0934955338016945,
+          "coverage": 0.9966666666666667,
+          "seed_count": 10,
+          "blocks_per_seed": 5,
+          "seed_effects": {
+            "101": 0.9604850448575033,
+            "102": 0.9144283985471058,
+            "103": 1.0483659558446694,
+            "104": 1.1207584093180647,
+            "105": 1.107455311127856,
+            "106": 1.0548823207739424,
+            "107": 1.0080106833003248,
+            "108": 1.012677203940082,
+            "109": 0.9694657854539346,
+            "45": 0.9492542760837387
+          }
+        },
+        "avx2_effect_on_array": {
+          "geomean_ratio": 4.163166847496626,
+          "lower_familywise_ci": 3.772571828954864,
+          "upper_familywise_ci": 4.532385484307373,
+          "coverage": 0.9966666666666667,
+          "seed_count": 10,
+          "blocks_per_seed": 5,
+          "seed_effects": {
+            "101": 4.498023677575163,
+            "102": 4.457441878227754,
+            "103": 4.413034280545698,
+            "104": 3.858919327936194,
+            "105": 3.944462609716756,
+            "106": 4.314378252723404,
+            "107": 3.96104919731102,
+            "108": 4.499825647353372,
+            "109": 4.149072805550167,
+            "45": 3.639692529518689
+          }
+        },
+        "filter_structure_interaction": {
+          "geomean_ratio": 1.02905053664484,
+          "lower_familywise_ci": 0.9267919771561562,
+          "upper_familywise_ci": 1.139513461851233,
+          "coverage": 0.9966666666666667,
+          "seed_count": 10,
+          "blocks_per_seed": 5,
+          "seed_effects": {
+            "101": 1.1182698284194192,
+            "102": 1.120062488750353,
+            "103": 1.058265285207888,
+            "104": 0.9800398389870063,
+            "105": 0.8733790547731193,
+            "106": 1.0615628969359194,
+            "107": 1.0396164482820174,
+            "108": 0.9907137534836434,
+            "109": 1.0900455182395365,
+            "45": 0.984748715256149
+          }
+        }
+      },
+      "pmu": {
+        "cycles": {
+          "available": true,
+          "valid_blocks": 50,
+          "geomean_ratios": {
+            "package_heap_stock_over_array_avx2": 4.45190949211551,
+            "avx2_effect_on_heap": 4.296666983074143,
+            "array_effect_with_stock_filter": 1.0175883894602296,
+            "avx2_effect_on_array": 4.374960974620575,
+            "filter_structure_interaction": 1.0182220292740531
+          }
+        },
+        "instructions": {
+          "available": true,
+          "valid_blocks": 50,
+          "geomean_ratios": {
+            "package_heap_stock_over_array_avx2": 6.980912166376151,
+            "avx2_effect_on_heap": 7.495534571672414,
+            "array_effect_with_stock_filter": 0.9914574988669975,
+            "avx2_effect_on_array": 7.041060433103478,
+            "filter_structure_interaction": 0.9393673480892856
+          }
+        },
+        "branches": {
+          "available": true,
+          "valid_blocks": 50,
+          "geomean_ratios": {
+            "package_heap_stock_over_array_avx2": 6.390204649769096,
+            "avx2_effect_on_heap": 6.868601435943957,
+            "array_effect_with_stock_filter": 0.990203904629015,
+            "avx2_effect_on_array": 6.453422996916194,
+            "filter_structure_interaction": 0.9395541519041851
+          }
+        },
+        "branch_misses": {
+          "available": true,
+          "valid_blocks": 50,
+          "geomean_ratios": {
+            "package_heap_stock_over_array_avx2": 1.1902021600068615,
+            "avx2_effect_on_heap": 1.281264899490773,
+            "array_effect_with_stock_filter": 0.9213351547214822,
+            "avx2_effect_on_array": 1.2918232349081018,
+            "filter_structure_interaction": 1.0082405562046732
+          }
+        }
+      }
+    },
+    "normal": {
+      "contrasts": {
+        "package_heap_stock_over_array_avx2": {
+          "geomean_ratio": 4.044723792699644,
+          "lower_familywise_ci": 3.529445458699883,
+          "upper_familywise_ci": 4.60031747209191,
+          "coverage": 0.9966666666666667,
+          "seed_count": 10,
+          "blocks_per_seed": 5,
+          "seed_effects": {
+            "101": 4.610856420354104,
+            "102": 3.7519722753007048,
+            "103": 4.187930402357883,
+            "104": 5.181086399659801,
+            "105": 4.066674376465644,
+            "106": 3.9929207960109223,
+            "107": 3.3845580088355827,
+            "108": 4.119216562366007,
+            "109": 3.7230571045936034,
+            "43": 3.704083841243058
+          }
+        },
+        "avx2_effect_on_heap": {
+          "geomean_ratio": 3.766286514484301,
+          "lower_familywise_ci": 3.407930518647041,
+          "upper_familywise_ci": 4.1542424068995425,
+          "coverage": 0.9966666666666667,
+          "seed_count": 10,
+          "blocks_per_seed": 5,
+          "seed_effects": {
+            "101": 4.176457172995648,
+            "102": 4.13808440764183,
+            "103": 3.2754819527033225,
+            "104": 3.568992570075603,
+            "105": 3.7993134236524715,
+            "106": 3.683845902235606,
+            "107": 4.2272920174491855,
+            "108": 3.467201546752138,
+            "109": 3.6715123321174095,
+            "43": 3.7740914074355842
+          }
+        },
+        "array_effect_with_stock_filter": {
+          "geomean_ratio": 1.000616867166367,
+          "lower_familywise_ci": 0.9287651027371328,
+          "upper_familywise_ci": 1.0800183870765467,
+          "coverage": 0.9966666666666667,
+          "seed_count": 10,
+          "blocks_per_seed": 5,
+          "seed_effects": {
+            "101": 0.9171702183298652,
+            "102": 1.0050902916408502,
+            "103": 0.9612739377099252,
+            "104": 1.1199833692861492,
+            "105": 1.0524580067538563,
+            "106": 1.0168243729094566,
+            "107": 1.001485810822697,
+            "108": 0.9614849324515649,
+            "109": 1.0535442460389715,
+            "43": 0.9338425177152262
+          }
+        },
+        "avx2_effect_on_array": {
+          "geomean_ratio": 4.042230273564989,
+          "lower_familywise_ci": 3.512254598039568,
+          "upper_familywise_ci": 4.607192804671278,
+          "coverage": 0.9966666666666667,
+          "seed_count": 10,
+          "blocks_per_seed": 5,
+          "seed_effects": {
+            "101": 5.027263563736633,
+            "102": 3.7329703674437638,
+            "103": 4.3566461526408675,
+            "104": 4.626038691058513,
+            "105": 3.8639778027901293,
+            "106": 3.9268539409474528,
+            "107": 3.3795366566953633,
+            "108": 4.284223728668273,
+            "109": 3.5338402906107125,
+            "43": 3.9664973172410343
+          }
+        },
+        "filter_structure_interaction": {
+          "geomean_ratio": 1.0732667995436536,
+          "lower_familywise_ci": 0.8952927185965486,
+          "upper_familywise_ci": 1.2857514937976673,
+          "coverage": 0.9966666666666667,
+          "seed_count": 10,
+          "blocks_per_seed": 5,
+          "seed_effects": {
+            "101": 1.2037148605861858,
+            "102": 0.9021010689269802,
+            "103": 1.3300778986265633,
+            "104": 1.296174928982976,
+            "105": 1.0170200170207313,
+            "106": 1.0659658533936973,
+            "107": 0.7994566362450231,
+            "108": 1.235643117626511,
+            "109": 0.9625026340501763,
+            "43": 1.0509807233143262
+          }
+        }
+      },
+      "pmu": {
+        "cycles": {
+          "available": true,
+          "valid_blocks": 50,
+          "geomean_ratios": {
+            "package_heap_stock_over_array_avx2": 4.267425660628402,
+            "avx2_effect_on_heap": 4.06652767000996,
+            "array_effect_with_stock_filter": 1.0023700305035343,
+            "avx2_effect_on_array": 4.257335645285292,
+            "filter_structure_interaction": 1.0469215976771813
+          }
+        },
+        "instructions": {
+          "available": true,
+          "valid_blocks": 50,
+          "geomean_ratios": {
+            "package_heap_stock_over_array_avx2": 7.060530792547351,
+            "avx2_effect_on_heap": 7.594949068013891,
+            "array_effect_with_stock_filter": 0.9913330570967067,
+            "avx2_effect_on_array": 7.122259004683407,
+            "filter_structure_interaction": 0.9377625762730633
+          }
+        },
+        "branches": {
+          "available": true,
+          "valid_blocks": 50,
+          "geomean_ratios": {
+            "package_heap_stock_over_array_avx2": 6.45429244742995,
+            "avx2_effect_on_heap": 6.954507624731753,
+            "array_effect_with_stock_filter": 0.9899687307361015,
+            "avx2_effect_on_array": 6.519693245897569,
+            "filter_structure_interaction": 0.9374773309201806
+          }
+        },
+        "branch_misses": {
+          "available": true,
+          "valid_blocks": 50,
+          "geomean_ratios": {
+            "package_heap_stock_over_array_avx2": 1.2247341985245872,
+            "avx2_effect_on_heap": 1.3566907853668857,
+            "array_effect_with_stock_filter": 0.910570407569651,
+            "avx2_effect_on_array": 1.345018669993298,
+            "filter_structure_interaction": 0.9913966281045894
+          }
+        }
+      }
+    },
+    "pareto": {
+      "contrasts": {
+        "package_heap_stock_over_array_avx2": {
+          "geomean_ratio": 4.046308711854434,
+          "lower_familywise_ci": 3.5546666866407897,
+          "upper_familywise_ci": 4.496647666816074,
+          "coverage": 0.9966666666666667,
+          "seed_count": 10,
+          "blocks_per_seed": 5,
+          "seed_effects": {
+            "101": 4.509832713050111,
+            "102": 4.366221084535719,
+            "103": 4.330933626579322,
+            "104": 4.517220624164589,
+            "105": 3.820069231703806,
+            "106": 4.118132070787865,
+            "107": 4.213406994895973,
+            "108": 3.739694826565222,
+            "109": 3.162853987134527,
+            "44": 3.8953898846711086
+          }
+        },
+        "avx2_effect_on_heap": {
+          "geomean_ratio": 3.9031566531666777,
+          "lower_familywise_ci": 3.5006676987012404,
+          "upper_familywise_ci": 4.397006782889948,
+          "coverage": 0.9966666666666667,
+          "seed_count": 10,
+          "blocks_per_seed": 5,
+          "seed_effects": {
+            "101": 3.6336517556476546,
+            "102": 4.013273990476713,
+            "103": 4.1498513034303945,
+            "104": 4.816185429315193,
+            "105": 4.384871616518336,
+            "106": 3.580102563204462,
+            "107": 3.5464234809781496,
+            "108": 3.895608806425481,
+            "109": 3.5409719294327147,
+            "44": 3.6664114853174086
+          }
+        },
+        "array_effect_with_stock_filter": {
+          "geomean_ratio": 0.9783104342567881,
+          "lower_familywise_ci": 0.9040959602790782,
+          "upper_familywise_ci": 1.0377526187649255,
+          "coverage": 0.9966666666666667,
+          "seed_count": 10,
+          "blocks_per_seed": 5,
+          "seed_effects": {
+            "101": 0.9441115912755769,
+            "102": 1.0183911669179702,
+            "103": 1.0398054483917223,
+            "104": 0.888693294956734,
+            "105": 1.0189627568031279,
+            "106": 0.9854121334161152,
+            "107": 1.0097764134412728,
+            "108": 0.9438347109452955,
+            "109": 1.0148639158783288,
+            "44": 0.9307214331159087
+          }
+        },
+        "avx2_effect_on_array": {
+          "geomean_ratio": 4.136017127250996,
+          "lower_familywise_ci": 3.580741369576387,
+          "upper_familywise_ci": 4.724532238789837,
+          "coverage": 0.9966666666666667,
+          "seed_count": 10,
+          "blocks_per_seed": 5,
+          "seed_effects": {
+            "101": 4.776800491303083,
+            "102": 4.287371322897002,
+            "103": 4.165138423998471,
+            "104": 5.082991679806147,
+            "105": 3.748978268537322,
+            "106": 4.179096168129766,
+            "107": 4.172613797282975,
+            "108": 3.962234894730392,
+            "109": 3.1165301452236465,
+            "44": 4.185344557533136
+          }
+        },
+        "filter_structure_interaction": {
+          "geomean_ratio": 1.0596595255523231,
+          "lower_familywise_ci": 0.9020339902020589,
+          "upper_familywise_ci": 1.230374918611647,
+          "coverage": 0.9966666666666667,
+          "seed_count": 10,
+          "blocks_per_seed": 5,
+          "seed_effects": {
+            "101": 1.3146005210539708,
+            "102": 1.0682976873920664,
+            "103": 1.0036837755018935,
+            "104": 1.0553978359859144,
+            "105": 0.8549801673587141,
+            "106": 1.1673118561131834,
+            "107": 1.1765695269229701,
+            "108": 1.0171028693114712,
+            "109": 0.8801341008435878,
+            "44": 1.1415370517722456
+          }
+        }
+      },
+      "pmu": {
+        "cycles": {
+          "available": true,
+          "valid_blocks": 50,
+          "geomean_ratios": {
+            "package_heap_stock_over_array_avx2": 4.276001238976344,
+            "avx2_effect_on_heap": 4.0963909119799,
+            "array_effect_with_stock_filter": 0.9915034672147115,
+            "avx2_effect_on_array": 4.312643758057954,
+            "filter_structure_interaction": 1.0527910667523508
+          }
+        },
+        "instructions": {
+          "available": true,
+          "valid_blocks": 50,
+          "geomean_ratios": {
+            "package_heap_stock_over_array_avx2": 7.047818844960545,
+            "avx2_effect_on_heap": 7.581128158268242,
+            "array_effect_with_stock_filter": 0.9913178760335237,
+            "avx2_effect_on_array": 7.109544794209085,
+            "filter_structure_interaction": 0.937795094052746
+          }
+        },
+        "branches": {
+          "available": true,
+          "valid_blocks": 50,
+          "geomean_ratios": {
+            "package_heap_stock_over_array_avx2": 6.446800477420828,
+            "avx2_effect_on_heap": 6.945505738374321,
+            "array_effect_with_stock_filter": 0.989974041335472,
+            "avx2_effect_on_array": 6.5120904268601985,
+            "filter_structure_interaction": 0.9375977318513359
+          }
+        },
+        "branch_misses": {
+          "available": true,
+          "valid_blocks": 50,
+          "geomean_ratios": {
+            "package_heap_stock_over_array_avx2": 1.2014101161927206,
+            "avx2_effect_on_heap": 1.3605925081667365,
+            "array_effect_with_stock_filter": 0.898778708477214,
+            "avx2_effect_on_array": 1.3367140374611788,
+            "filter_structure_interaction": 0.982449946944268
+          }
+        }
+      }
+    }
+  },
+  "nyc_fixed_stream": {
+    "stream": "fixed chronological NYC taxi",
+    "paired_block_count": 5,
+    "contrasts": {
+      "package_heap_stock_over_array_avx2": {
+        "block_ratios": [
+          3.937790451010356,
+          3.42188029314487,
+          4.164712115531783,
+          2.9656733278855745,
+          4.010320842444641
+        ],
+        "median": 3.937790451010356,
+        "minimum": 2.9656733278855745,
+        "maximum": 4.164712115531783
+      },
+      "avx2_effect_on_heap": {
+        "block_ratios": [
+          3.9643153262889146,
+          3.4086648776507644,
+          3.449864245641756,
+          4.644808517776084,
+          4.107815980096456
+        ],
+        "median": 3.9643153262889146,
+        "minimum": 3.4086648776507644,
+        "maximum": 4.644808517776084
+      },
+      "array_effect_with_stock_filter": {
+        "block_ratios": [
+          1.0352004273735487,
+          0.8859485904301408,
+          0.9270015542956042,
+          1.079637401535946,
+          0.9444513186890822
+        ],
+        "median": 0.9444513186890822,
+        "minimum": 0.8859485904301408,
+        "maximum": 1.079637401535946
+      },
+      "avx2_effect_on_array": {
+        "block_ratios": [
+          3.803891832812601,
+          3.8623914864896367,
+          4.492670045948737,
+          2.7469160698457276,
+          4.24619116209298
+        ],
+        "median": 3.8623914864896367,
+        "minimum": 2.7469160698457276,
+        "maximum": 4.492670045948737
+      },
+      "filter_structure_interaction": {
+        "block_ratios": [
+          0.9595331147316957,
+          1.1331097732175943,
+          1.3022744450377626,
+          0.5913949002059058,
+          1.0336858278625412
+        ],
+        "median": 1.0336858278625412,
+        "minimum": 0.5913949002059058,
+        "maximum": 1.3022744450377626
+      }
+    }
+  }
+}

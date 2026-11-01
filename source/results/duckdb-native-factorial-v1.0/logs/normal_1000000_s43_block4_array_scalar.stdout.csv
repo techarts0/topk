@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,rows,checksum,cycles,instructions,branches,branch_misses,perf_running_pct
+array_scalar,"*/source/data/normal_1000000_s43.csv",100,0,11088491,100,8140860105131817583,24636872,71704309,16210193,27656,100
+array_scalar,"*/source/data/normal_1000000_s43.csv",100,1,11221122,100,8140860105131817583,25342699,71711183,16211543,30858,100
+array_scalar,"*/source/data/normal_1000000_s43.csv",100,2,10642784,100,8140860105131817583,24434825,71756434,16217120,27713,100

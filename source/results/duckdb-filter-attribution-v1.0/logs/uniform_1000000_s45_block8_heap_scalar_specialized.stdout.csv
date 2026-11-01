@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,rows,checksum,cycles,instructions,branches,branch_misses,perf_running_pct
+heap_scalar_specialized,"*/source/data/uniform_1000000_s45.csv",100,0,4329975,100,11057376467838409356,8487395,13186901,4074600,25215,100
+heap_scalar_specialized,"*/source/data/uniform_1000000_s45.csv",100,1,2620468,100,11057376467838409356,5870433,13195726,4076346,20990,100
+heap_scalar_specialized,"*/source/data/uniform_1000000_s45.csv",100,2,2917331,100,11057376467838409356,6264587,13229548,4080560,20563,100

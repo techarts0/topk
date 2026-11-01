@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,rows,checksum,cycles,instructions,branches,branch_misses,perf_running_pct
+array_scalar,"*/source/data/iid-replicates/uniform_1000000_s105.csv",100,0,11735442,100,16497634053900619754,26757065,71714448,16214189,30936,100
+array_scalar,"*/source/data/iid-replicates/uniform_1000000_s105.csv",100,1,10660747,100,16497634053900619754,24147790,71724725,16216290,28583,100
+array_scalar,"*/source/data/iid-replicates/uniform_1000000_s105.csv",100,2,13186323,100,16497634053900619754,30031391,71761304,16220400,30594,100

@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,topn_operator_ns,root_latency_ns,rows,checksum,topn_nodes
+array_avx2,"*/source/data/uniform_1000000_s45.csv",100,0,4562536,2510789,4345615,100,11057376467838409356,1
+array_avx2,"*/source/data/uniform_1000000_s45.csv",100,1,3516861,1900183,3295364,100,11057376467838409356,1
+array_avx2,"*/source/data/uniform_1000000_s45.csv",100,2,3685406,1890787,3524080,100,11057376467838409356,1

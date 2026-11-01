@@ -1,0 +1,20 @@
+physical_plan
+┌───────────────────────────┐
+│           TOP_N           │
+│    ────────────────────   │
+│          Top: 100         │
+│                           │
+│         Order By:         │
+│   memory.main.topk_input  │
+│        .score DESC        │
+└─────────────┬─────────────┘
+┌─────────────┴─────────────┐
+│         SEQ_SCAN          │
+│    ────────────────────   │
+│     Table: topk_input     │
+│   Type: Sequential Scan   │
+│     Projections: score    │
+│                           │
+│      ~1,000,000 rows      │
+└───────────────────────────┘
+

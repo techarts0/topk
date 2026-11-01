@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,topn_operator_ns,root_latency_ns,rows,checksum,topn_nodes
+heap_stock,"*/source/data/uniform_1000000_s45.csv",100,0,13246795,10448824,12223804,100,11057376467838409356,1
+heap_stock,"*/source/data/uniform_1000000_s45.csv",100,1,11101426,9329255,10899663,100,11057376467838409356,1
+heap_stock,"*/source/data/uniform_1000000_s45.csv",100,2,14062364,11881601,13900487,100,11057376467838409356,1

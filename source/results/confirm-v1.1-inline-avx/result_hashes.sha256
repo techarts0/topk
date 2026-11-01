@@ -1,0 +1,16 @@
+02ae20c6ea87d9d3d0eebdc7950f66f60053f8058bc1e6a890e8f83e353da9ec  results/confirm-v1.1-inline-avx/normal-k100/environment.json
+c3bb74a3eb72765441bfe324b8da8084c68dddb91ac97b744b13676c74003018  results/confirm-v1.1-inline-avx/normal-k10000/environment.json
+3d76c961a97ddb85d1d34cdf63d86bcfc3b2a257e568d0e9785268b50eef1d59  results/confirm-v1.1-inline-avx/pareto-k100/environment.json
+480436b266dbe9696bcdac7bc841385c0af3944015496b284015071c9be228fa  results/confirm-v1.1-inline-avx/pareto-k10000/environment.json
+f3c5806997bf4ce3206dbf4c69daef322cbb06f50b600a148c5856d3d9e0b7d2  results/confirm-v1.1-inline-avx/taxi-k100/environment.json
+2e4b646a8650b1960f0d264562cac46038b6f237353c529387e406eb7a3ac08e  results/confirm-v1.1-inline-avx/taxi-k10000/environment.json
+c1d02bc016970acdec5cc741284a75603b71970434da08540d1b121caaddc961  results/confirm-v1.1-inline-avx/uniform-k100/environment.json
+07a92558df25a7f473a56069f9d90f39a2b4feac581a8c739b99ca6bcde4f954  results/confirm-v1.1-inline-avx/uniform-k10000/environment.json
+ff0a1fe91955d44777eb9401b40f26c0ec8fcd64fbf95712848cee1ff0ce4330  results/confirm-v1.1-inline-avx/normal-k100/timings.csv
+dc60e93b18a52796ae551fc82f01b7adeeab62b66ea608e7c41b3c1db4186723  results/confirm-v1.1-inline-avx/normal-k10000/timings.csv
+d0af16f0d84b0d37af0b6e415b318e295a03c9c19455b68c120bc0453e94ac50  results/confirm-v1.1-inline-avx/pareto-k100/timings.csv
+ee21f00e5d5c7c7bae16f96353b6fac1df7c0a1f19ce3430179b01041e463b4a  results/confirm-v1.1-inline-avx/pareto-k10000/timings.csv
+7b8133d8a7d9d3882ac0afb818550a67a8a0aa61dd207a200e6d66a96cdb4ae4  results/confirm-v1.1-inline-avx/taxi-k100/timings.csv
+5e36a970bc100f5b876f636658106e83cf56134f139ac37dd717cca2b7a9377e  results/confirm-v1.1-inline-avx/taxi-k10000/timings.csv
+b4e4991369e52e4f3fa7fc36773769fac934356f73c0ee946c85c8282eb7577b  results/confirm-v1.1-inline-avx/uniform-k100/timings.csv
+d7f3a07d86235fd4443b8714cf7c9d9b54745537c8696ba6cef33514d1bcca7b  results/confirm-v1.1-inline-avx/uniform-k10000/timings.csv

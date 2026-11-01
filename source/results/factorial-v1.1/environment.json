@@ -1,0 +1,25 @@
+{
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "python": "3.10.12",
+  "cpu_model": "AMD Ryzen 9 PRO 7940HS w/ Radeon 780M Graphics",
+  "logical_cpu_count": 16,
+  "available_affinity_before_pinning": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15
+  ],
+  "pinned_cpu": 2
+}

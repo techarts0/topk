@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,rows,checksum,cycles,instructions,branches,branch_misses,perf_running_pct
+heap_scalar_specialized,"*/source/data/normal_1000000_s43.csv",100,0,3371088,100,8140860105131817583,6720921,13196771,4072317,23807,100
+heap_scalar_specialized,"*/source/data/normal_1000000_s43.csv",100,1,2473967,100,8140860105131817583,5423935,13209599,4075028,19495,100
+heap_scalar_specialized,"*/source/data/normal_1000000_s43.csv",100,2,2879663,100,8140860105131817583,5528375,13247019,4078858,19876,100

@@ -1,0 +1,42 @@
+{
+  "created_utc": "2026-10-24T17:41:00.429349+00:00",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "args": {
+    "data": "data/pareto_1000000_s44.csv",
+    "k": 100,
+    "blocks": 1,
+    "reps": 1,
+    "seed": 202611112,
+    "cpu": 2,
+    "diagnostic": true,
+    "out": "results/diagnostics-v1.1-inline-avx/pareto-k100",
+    "status": "exploratory calibration"
+  },
+  "binary_sha256": "76eff8167dcf552bda64de8f46c70a39fc489504ebaf9ea48e5b87b89083e834",
+  "data": {
+    "out": "data/pareto_1000000_s44.csv",
+    "n": 1000000,
+    "seed": 44,
+    "kind": "pareto",
+    "dtype": "float64",
+    "alpha": 2.0,
+    "input": null,
+    "column": "score",
+    "provenance": null,
+    "shuffle": false,
+    "n_actual": 1000000,
+    "sha256": "a0e55e7094b81d9fcc7707c3e6f345a530bd746e3418e6f3370b4305bf07ccdb",
+    "python": "3.10.12",
+    "duplicate_fraction": 0.0,
+    "generator_sha256": "9c18ba0ed6aacdd53de7e370f6886253d8b0abd9293ab8d20e0a50557d02c6bf",
+    "status": "prepared; not confirmatory data"
+  },
+  "source_sha256": {
+    "bench.cpp": "bce5d4159685925bde410d1720603f6f6bc68893d0d118a78ae631b434a916c5",
+    "kernels.hpp": "33cc1f7379e9cd6b22b27b1d42656f107f78159e346faa7b3053277a7dd62d61",
+    "run_pilot.py": "c0507d327d422c6d8d5717e2e323d43cc5cefaaba9d0e9f767cee8a878bcc7f5"
+  },
+  "version": "compiler=11.4.0 libstdcxx=20230528 avx2=1\n",
+  "lscpu": "Architecture:                         x86_64\nCPU op-mode(s):                       32-bit, 64-bit\nAddress sizes:                        48 bits physical, 48 bits virtual\nByte Order:                           Little Endian\nCPU(s):                               16\nOn-line CPU(s) list:                  0-15\nVendor ID:                            AuthenticAMD\nModel name:                           AMD Ryzen 9 PRO 7940HS w/ Radeon 780M Graphics\nCPU family:                           25\nModel:                                116\nThread(s) per core:                   2\nCore(s) per socket:                   8\nSocket(s):                            1\nStepping:                             1\nBogoMIPS:                             7985.11\nFlags:                                fpu vme de pse tsc msr pae mce cx8 apic sep mtrr pge mca cmov pat pse36 clflush mmx fxsr sse sse2 ht syscall nx mmxext fxsr_opt pdpe1gb rdtscp lm constant_tsc rep_good nopl tsc_reliable nonstop_tsc cpuid extd_apicid tsc_known_freq pni pclmulqdq ssse3 fma cx16 sse4_1 sse4_2 movbe popcnt aes xsave avx f16c rdrand hypervisor lahf_lm cmp_legacy svm cr8_legacy abm sse4a misalignsse 3dnowprefetch osvw topoext perfctr_core ssbd ibrs ibpb stibp vmmcall fsgsbase bmi1 avx2 smep bmi2 erms invpcid avx512f avx512dq rdseed adx smap avx512ifma clflushopt clwb avx512cd sha_ni avx512bw avx512vl xsaveopt xsavec xgetbv1 xsaves avx512_bf16 clzero xsaveerptr arat npt nrip_save tsc_scale vmcb_clean flushbyasid decodeassists pausefilter pfthreshold v_vmsave_vmload avx512vbmi umip avx512_vbmi2 gfni vaes vpclmulqdq avx512_vnni avx512_bitalg avx512_vpopcntdq rdpid fsrm\nVirtualization:                       AMD-V\nHypervisor vendor:                    Microsoft\nVirtualization type:                  full\nL1d cache:                            256 KiB (8 instances)\nL1i cache:                            256 KiB (8 instances)\nL2 cache:                             8 MiB (8 instances)\nL3 cache:                             16 MiB (1 instance)\nNUMA node(s):                         1\nNUMA node0 CPU(s):                    0-15\nVulnerability Gather data sampling:   Not affected\nVulnerability Itlb multihit:          Not affected\nVulnerability L1tf:                   Not affected\nVulnerability Mds:                    Not affected\nVulnerability Meltdown:               Not affected\nVulnerability Mmio stale data:        Not affected\nVulnerability Reg file data sampling: Not affected\nVulnerability Retbleed:               Not affected\nVulnerability Spec rstack overflow:   Vulnerable: Safe RET, no microcode\nVulnerability Spec store bypass:      Mitigation; Speculative Store Bypass disabled via prctl\nVulnerability Spectre v1:             Mitigation; usercopy/swapgs barriers and __user pointer sanitization\nVulnerability Spectre v2:             Mitigation; Retpolines; IBPB conditional; IBRS_FW; STIBP always-on; RSB filling; PBRSB-eIBRS Not affected; BHI Not affected\nVulnerability Srbds:                  Not affected\nVulnerability Tsx async abort:        Not affected\n",
+  "status": "exploratory calibration"
+}

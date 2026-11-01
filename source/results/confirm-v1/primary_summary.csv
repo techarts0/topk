@@ -1,0 +1,17 @@
+dataset,k,structure,contrast,paired_blocks,geomean_speedup_ratio,simultaneous_nominal_95_ci_low,simultaneous_nominal_95_ci_high,interval_excludes_1,interpretation
+uniform,100,heap,heap_scalar/heap_avx2,25,0.5771142862585291,0.5186381940937993,0.6386205027123572,True,ratio > 1 favors AVX2; nominal Bonferroni-adjusted bootstrap interval
+uniform,100,array,array_scalar/array_avx2,25,0.6008399302316956,0.537197199527639,0.6740944269228971,True,ratio > 1 favors AVX2; nominal Bonferroni-adjusted bootstrap interval
+uniform,10000,heap,heap_scalar/heap_avx2,25,1.004070324902608,0.9440778303272477,1.0753585542415751,False,ratio > 1 favors AVX2; nominal Bonferroni-adjusted bootstrap interval
+uniform,10000,array,array_scalar/array_avx2,25,0.989625205335367,0.9488971670239681,1.0357062557645575,False,ratio > 1 favors AVX2; nominal Bonferroni-adjusted bootstrap interval
+normal,100,heap,heap_scalar/heap_avx2,25,0.6118197544307971,0.5658166489745354,0.6785114496550072,True,ratio > 1 favors AVX2; nominal Bonferroni-adjusted bootstrap interval
+normal,100,array,array_scalar/array_avx2,25,0.5751123841438377,0.5215100855498842,0.6388376930178182,True,ratio > 1 favors AVX2; nominal Bonferroni-adjusted bootstrap interval
+normal,10000,heap,heap_scalar/heap_avx2,25,1.015753701865332,0.9857300881108406,1.0480066846917415,False,ratio > 1 favors AVX2; nominal Bonferroni-adjusted bootstrap interval
+normal,10000,array,array_scalar/array_avx2,25,0.9876294643895623,0.9543788772980829,1.0203308747630135,False,ratio > 1 favors AVX2; nominal Bonferroni-adjusted bootstrap interval
+pareto,100,heap,heap_scalar/heap_avx2,25,0.6038115663452723,0.5402420492158791,0.6714304582703282,True,ratio > 1 favors AVX2; nominal Bonferroni-adjusted bootstrap interval
+pareto,100,array,array_scalar/array_avx2,25,0.5990379323833622,0.5313188845324961,0.6836271575659737,True,ratio > 1 favors AVX2; nominal Bonferroni-adjusted bootstrap interval
+pareto,10000,heap,heap_scalar/heap_avx2,25,1.0002914605328177,0.9647899115726171,1.0374922590307434,False,ratio > 1 favors AVX2; nominal Bonferroni-adjusted bootstrap interval
+pareto,10000,array,array_scalar/array_avx2,25,0.9866172751071556,0.9531210935243054,1.0192369472715301,False,ratio > 1 favors AVX2; nominal Bonferroni-adjusted bootstrap interval
+taxi,100,heap,heap_scalar/heap_avx2,25,0.6376993068745781,0.5638054514271521,0.7301795879744889,True,ratio > 1 favors AVX2; nominal Bonferroni-adjusted bootstrap interval
+taxi,100,array,array_scalar/array_avx2,25,0.6643702090253738,0.5944297852505723,0.7397539461182785,True,ratio > 1 favors AVX2; nominal Bonferroni-adjusted bootstrap interval
+taxi,10000,heap,heap_scalar/heap_avx2,25,0.9979104814364872,0.9608021167687733,1.040248679384267,False,ratio > 1 favors AVX2; nominal Bonferroni-adjusted bootstrap interval
+taxi,10000,array,array_scalar/array_avx2,25,1.0022658646691895,0.9731695176055132,1.0349678735776293,False,ratio > 1 favors AVX2; nominal Bonferroni-adjusted bootstrap interval

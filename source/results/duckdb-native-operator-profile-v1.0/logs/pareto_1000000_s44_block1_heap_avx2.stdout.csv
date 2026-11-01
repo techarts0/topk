@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,topn_operator_ns,root_latency_ns,rows,checksum,topn_nodes
+heap_avx2,"*/source/data/pareto_1000000_s44.csv",100,0,3995295,1840202,3161549,100,1768779312334132492,1
+heap_avx2,"*/source/data/pareto_1000000_s44.csv",100,1,2968558,1786875,2863250,100,1768779312334132492,1
+heap_avx2,"*/source/data/pareto_1000000_s44.csv",100,2,2706577,1423574,2620719,100,1768779312334132492,1

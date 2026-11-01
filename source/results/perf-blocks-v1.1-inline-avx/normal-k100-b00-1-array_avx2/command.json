@@ -1,0 +1,27 @@
+{
+  "command": [
+    "taskset",
+    "-c",
+    "2",
+    "/usr/lib/linux-tools/5.15.0-198-generic/perf",
+    "stat",
+    "-D",
+    "-1",
+    "--control",
+    "fifo:*,*",
+    "-e",
+    "cycles:u,instructions:u,branches:u,branch-misses:u",
+    "-x",
+    ";",
+    "-o",
+    "*/source/results/perf-blocks-v1.1-inline-avx/normal-k100-b00-1-array_avx2/perf.csv",
+    "--",
+    "*/source/build/topk_bench",
+    "*/source/data/normal_1000000_s43.csv",
+    "float64",
+    "array_avx2",
+    "100",
+    "10"
+  ],
+  "scope": "sum of selected kernel calls + timer/control overhead; exploratory"
+}

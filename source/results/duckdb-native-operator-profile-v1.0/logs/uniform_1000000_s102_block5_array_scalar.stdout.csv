@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,topn_operator_ns,root_latency_ns,rows,checksum,topn_nodes
+array_scalar,"*/source/data/iid-replicates/uniform_1000000_s102.csv",100,0,15885532,13360789,15660683,100,6337549434772009961,1
+array_scalar,"*/source/data/iid-replicates/uniform_1000000_s102.csv",100,1,12178056,10522113,12017462,100,6337549434772009961,1
+array_scalar,"*/source/data/iid-replicates/uniform_1000000_s102.csv",100,2,13406705,11301517,13189480,100,6337549434772009961,1

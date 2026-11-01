@@ -1,0 +1,2 @@
+method,n,k,rep,ns,checksum,visited,passed,updates,batches,diagnostic
+heap_scalar,1000000,10000,0,8937645,5441279505187265067,990000,45893,45893,0,1

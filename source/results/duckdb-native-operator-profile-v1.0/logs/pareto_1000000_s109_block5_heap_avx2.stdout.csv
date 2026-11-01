@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,topn_operator_ns,root_latency_ns,rows,checksum,topn_nodes
+heap_avx2,"*/source/data/iid-replicates/pareto_1000000_s109.csv",100,0,4480174,1889861,3477923,100,8888851305061436174,1
+heap_avx2,"*/source/data/iid-replicates/pareto_1000000_s109.csv",100,1,3409454,1938399,3247091,100,8888851305061436174,1
+heap_avx2,"*/source/data/iid-replicates/pareto_1000000_s109.csv",100,2,5727512,3416133,5588086,100,8888851305061436174,1

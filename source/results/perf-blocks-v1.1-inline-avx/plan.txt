@@ -1,0 +1,3 @@
+Exploratory replication to assess PMU reproducibility after the fixed v1.1 PMU matrix.
+five process blocks per dataset/k, methods randomized within each block, seed=20261120; 10 gated calls per process; CPU=2; events cycles:u,instructions:u,branches:u,branch-misses:u.
+Primary contrasts only; no timing or source-branch attribution claims.

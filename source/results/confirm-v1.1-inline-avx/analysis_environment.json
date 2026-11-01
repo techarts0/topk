@@ -1,0 +1,14 @@
+{
+  "created_utc": "2026-10-24T18:03:27.945176+00:00",
+  "python": "3.10.12 (main, Aug 31 2026, 10:18:17) [GCC 11.4.0]",
+  "platform": "Linux-6.6.87.2-microsoft-standard-WSL2-x86_64-with-glibc2.35",
+  "numpy": "2.2.6",
+  "scripts_sha256": {
+    "analyze_confirmation.py": "53328eabf0f6afbfe9aa9a603e818532cc801eaf38852e5f3836abc2e99048a2",
+    "analyze_confirmation_v1_1.py": "ed913fed370c9d657e95a79c546e7d995148295420c26c8c729996871c29c821"
+  },
+  "bootstrap_resamples": 100000,
+  "bootstrap_rng_seed": 20261029,
+  "comparisons": 8,
+  "per_comparison_interval_percent": 99.375
+}

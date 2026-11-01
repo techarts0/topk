@@ -1,0 +1,2 @@
+method,n,k,rep,ns,checksum,visited,passed,updates,batches,diagnostic
+array_batch,1000000,100,0,2981401,10265610198258061367,999900,970,969,249975,1

@@ -1,0 +1,4 @@
+variant,data,k,rep,elapsed_ns,topn_operator_ns,root_latency_ns,rows,checksum,topn_nodes
+array_avx2,"*/source/data/normal_1000000_s43.csv",100,0,3149999,1716601,2986984,100,8140860105131817583,1
+array_avx2,"*/source/data/normal_1000000_s43.csv",100,1,2858163,1662569,2744811,100,8140860105131817583,1
+array_avx2,"*/source/data/normal_1000000_s43.csv",100,2,2778203,1549513,2659826,100,8140860105131817583,1

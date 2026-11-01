@@ -1,0 +1,15 @@
+{
+  "plan": "DUCKDB_NATIVE_OPERATOR_PROFILE_PLAN_v1.0.md",
+  "plan_sha256": "907c840dca327d9b0d05e0ee13a27ea340bece352eab16147b80997787d033ad",
+  "timing_csv_sha256": "5c3649d648707ed3487f3a4c89559038f914ce7df6f97772b39cd36e2131cf1b",
+  "analysis_script": "analyze_duckdb_native_operator_profile_v1.py",
+  "analysis_script_sha256": "8addcfc8513f750f4a9d31834834a0f0846e4c159885c5719af0edd285effd1b",
+  "analysis_sha256": "c082fbc1938e0bf53391a443288e771cc6225e72f27f1979df474dc21950d00c",
+  "summary_csv_sha256": "656fdf3b37ef8e1686ec689a10da0d8ef388c7d5285a4ef91095fd26567c3838",
+  "bootstrap_reps": 100000,
+  "bootstrap_seed": 20261030,
+  "numpy_version": "2.2.6",
+  "paired_four_way_blocks": 155,
+  "profiled_calls": 1860,
+  "familywise_interval_coverage": 0.9966666666666667
+}

@@ -1,0 +1,2 @@
+method,n,k,rep,ns,checksum,visited,passed,updates,batches,diagnostic
+heap_avx2,1000000,10000,0,8216142,11188556513471648938,990000,46011,46010,247500,1

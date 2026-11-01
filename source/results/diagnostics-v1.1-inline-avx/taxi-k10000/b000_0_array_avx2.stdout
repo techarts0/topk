@@ -1,0 +1,2 @@
+method,n,k,rep,ns,checksum,visited,passed,updates,batches,diagnostic
+array_avx2,1000000,10000,0,45533110,15597205920205384947,990000,45399,45396,247500,1
