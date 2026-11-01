@@ -1,6 +1,6 @@
 # Exact Top-k Selection: Supplementary Materials
 
-This directory contains the code, frozen inputs, experimental records, analysis outputs, and run metadata supporting *Engineering Exact Top-k Selection: System Audits and Optimization in DuckDB*. Machine-specific absolute path roots and the local host name in text artifacts are redacted as `*`; measurements and input data are unchanged.
+This repository contains the code, frozen inputs, experimental records, analysis outputs, and run metadata supporting *Engineering Exact Top-k Selection: System Audits and Optimization in DuckDB*. 
 
 
 ## Contents
